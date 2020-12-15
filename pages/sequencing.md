@@ -1,5 +1,3 @@
-# Transcriptome analysis
-
 Transcriptome analysis can be used for many purposes:
 - Profiling the set of RNA transcripts under specific circumstances or in specific cells. 
 - Identification important markers for cell subtypes to classify [cell subtypes](#classification-of-cell-subtypes-and/or-feature-selection)

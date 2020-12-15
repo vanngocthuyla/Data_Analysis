@@ -8,7 +8,7 @@ Transcriptome analysis can be used for many purposes:
 In this page, I will introduce some examples of transcriptomic analysis: 
 
 ## Classification of cell subtypes and/or feature selection
-- LDA (Linear Discriminant Analysis)
+- [LDA](https://github.com/vanngocthuyla/Data_Analysis/edit/gh-pages/pages/sequencing.md) (Linear Discriminant Analysis)
 - Naive_Bayes
 - SVM (Support Vector Machine)
 - swLDA (Stepwise Linear Discriminant Analysis)

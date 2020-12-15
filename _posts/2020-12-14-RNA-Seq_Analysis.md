@@ -1,3 +1,8 @@
+layout: Genomic Analysis
+title: "RNA-Seq Analysis"
+date: 2020-12-14 22:28:00 -0000
+categories: CATEGORY-1 CATEGORY-2
+
 Transcriptome analysis can be used for many purposes:
 - Profiling the set of RNA transcripts under specific circumstances or in specific cells. 
 - Identification important markers for cell subtypes

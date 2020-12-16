@@ -23,7 +23,6 @@ where q<sub>min</sub> = min{q<sub>1</sub>, q<sub>2</sub>, ..., q<sub>n</sub>}, q
 </div>
 
 Otherwise, they follow the uniform distribution. 
-
 <div align="center"> [R]<sub>0</sub> ∼ Uniform(0.001, 1.), [L]<sub>s</sub> ∼ Uniform(0.01, 10.) 
 </div>
 

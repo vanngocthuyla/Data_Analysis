@@ -116,9 +116,6 @@ table {
     border:2px solid $black;
     margin: 15px 5px;
     padding: 0.65ex 0.5em 0.4ex 0.5em;
-    display: block;
-    overflow-x: auto;
-    overflow-y: auto;
 }
 
 th{
@@ -127,6 +124,8 @@ th{
 
 td{
     border:1px solid $black;
+    overflow: hidden;
+    overflow-y: auto;
 }
 
 // Fixes images in popup boxes from Google Translate

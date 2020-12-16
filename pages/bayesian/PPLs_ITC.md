@@ -1,29 +1,25 @@
-<script type="text/javascript" src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=default"></script>
-
 # Comparison of the three PPLs (numpyro, pyro and pymc3) for running the ITC (isothermal titration calorimetry) data
 
 ## 1. Introduction
 
-*E*~0~=*mc*^2^
-
 In previous research ([1](https://github.com/choderalab/bayesian-itc), [2](https://github.com/nguyentrunghai/bayesian-itc/tree/d8cbf43240862e85d72d7d0c327ae2c6f750e600)), MCMC was applied to build Bayesian model that could do sampling from the posterior distribution of thermodynamic parameters from ITC data. 
 
-- Data: D $\equiv$ {q1, q2, ..., qn} consists of the observed heats per injection
-- Parameters: $\theta$ $\equiv$ ($\Delta$ G, $\Delta$ H, $\Delta$ H_0, [R]0, [L]s, log_$\sigma$)
+- Data: D $\equiv$ {q<sub>1</sub>, q<sub>2</sub>, ..., q<sub>n</sub>} consists of the observed heats per injection
+- Parameters: &theta; &equiv &Delta G, $\Delta$ H, $\Delta$ H_0, [R]<sub>0</sub>, [L]<sub>s</sub>, log &sigma)
 - Priors: 
 
 $\delta$G ~ Uniform(-40 kcal/mol, 40 kcal/mol)
 $\delta$H ~ Uniform(-100 kcal/mol, 100k cal/mol)
-$\delta$H_0 ~ Uniform(qmin - $\delta$q, qmax - $\delta$q)
+$\delta$H_0 ~ Uniform(q<sub>min</sub> - $\delta$q, q<sub>max</sub> - $\delta$q)
 $\sigma$ ~ uninformative Jeffreys prior
   
-where qmin = min{q1, q2, qn}, qmax = max{q1, q2, ..., qn} and $\delta$q = qmax - qmin. Priors for [R]0, [L]s follow the lognormal distribution if stated value is available: 
+where q<sub>min</sub> = min{q<sub>1</sub>, q<sub>2</sub>, ..., q<sub>n</sub>}, q<sub>max</sub> = max{q<sub>1</sub>, q<sub>2</sub>, ..., q<sub>n</sub>} and $\delta$q = q<sub>max</sub> - q<sub>min</sub>. Priors for [R]q<sub>0</sub>, [L]s follow the lognormal distribution if stated value is available: 
 
-ln[X]_0 ∼ Normal ([X]stated0, 0.1∗[X]stated0)
+ln[X]<sub>0</sub> ∼ Normal ([X]<sub>stated</sub>0, 0.1∗[X]<sub>stated</sub>0)
 
 Otherwise, they follow the uniform distribution. 
 
-[R]0 ∼ Uniform(0.001, 1.), [L]s ∼ Uniform(0.01, 10.)
+[R]<sub>0</sub> ∼ Uniform(0.001, 1.), [L]<sub>s</sub> ∼ Uniform(0.01, 10.)
 
 Details information about the Bayesian model can be found [here](https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0203224). Pymc was used as the probabilistic programming language (PPL) for the model implementation. Now this model can be extended with other two PPLs, which are Numpyro and Pyro.
 

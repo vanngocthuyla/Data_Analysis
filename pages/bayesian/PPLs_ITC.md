@@ -19,7 +19,7 @@ $\delta$H_0 ~ Uniform(qmin - $\delta$q, qmax - $\delta$q)
 <p align="center">
 $\sigma$ ~ uninformative Jeffreys prior
   
-where qmin = min{q1, q2, qN}, qmax = max{q1, q2, ..., qn} and $\delta$q = qmax - qmin. Priors for [R]0, [L]s follow the lognormal distribution if stated value is available: 
+where qmin = min{q1, q2, qn}, qmax = max{q1, q2, ..., qn} and $\delta$q = qmax - qmin. Priors for [R]0, [L]s follow the lognormal distribution if stated value is available: 
 
 <p align="center">
 ln[X]_0 ∼ Normal ([X]stated0, 0.1∗[X]stated0)

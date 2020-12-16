@@ -1,4 +1,4 @@
-theme: jekyll-theme-cayman
+theme: minima
 url: "https://vanngocthuyla.github.io"
 markdown: kramdown
 
@@ -86,7 +86,7 @@ sass:
 # Use the following plug-ins
 gems:
   - jekyll-sitemap # Create a sitemap using the official Jekyll sitemap gem
-  - logo # Recplace jekyll-feed, which creates an Atom feed using the official Jekyll feed gem
+  - jekyll-seo-tag # Recplace jekyll-feed, which creates an Atom feed using the official Jekyll feed gem
 
 # Exclude these files from your production _site
 exclude:

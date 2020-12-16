@@ -126,18 +126,6 @@ td{
     border:1px solid $black;
 }
 
-.hack1 {
-  display: table;
-  table-layout: fixed;
-  width: 100%;
-}
-
-.hack2 {
-  display: table-cell;
-  overflow-x: auto;
-  width: 100%;
-}
-
 // Fixes images in popup boxes from Google Translate
 .gmnoprint img {
   max-width: none;

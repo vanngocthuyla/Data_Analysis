@@ -2,7 +2,7 @@ Comparison of the three PPLs (numpyro, pyro and pymc3) for running the ITC (isot
 
 ## 1. Introduction to the data
 
-Data of ITC to running the Bayesian model: [Mg1EDTAp1a.DAT](https://github.com/vanngocthuyla/bitc/inputs/)
+Data of ITC to running the Bayesian model: [Mg1EDTAp1a.DAT](https://github.com/vanngocthuyla/bitc/tree/main/inputs/Mg1EDTAp1a.DAT)
 
 ## 2. Bayesian Models
 
@@ -16,6 +16,7 @@ Numpyro v0.4.1, Numpy v1.18.5, Matplotlib v3.2.2, Arviz v0.10.0
 Pyro v1.5.1, Torch v1.7.0, Numpy v1.18.5, Matplotlib v3.2.2, Arviz v0.10.0
 - Pymc3:
 Pymc3 v3.8, Theano v1.0.5, Pandas v0.25, Arviz v0.4.1
+- Python scripts: [numpyro](https://github.com/vanngocthuyla/bitc/blob/main/scripts/bitc_numpyro.py), [pyro](https://github.com/vanngocthuyla/bitc/blob/main/scripts/bitc_pyro.py), [pymc3](https://github.com/vanngocthuyla/bitc/blob/main/scripts/bitc_pymc3.py),
 
 ## 4. Comparison of 3 PPLs
 

@@ -4,29 +4,7 @@
 ### Two datasets, one for training and one for testing LDA
 Example training dataset: 
 
-<table>
-<thead>
-<tr>
-  <th>First Header</th>
-  <th>Second Header</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-  <td>Content Cell</td>
-  <td>Content Cell</td>
-</tr>
-<tr>
-  <td>Content Cell</td>
-  <td>Content Cell</td>
-</tr>
-</tbody>
-</table>
-
-
-<table>
-
-|id|S01|S02|S03|S04|S05|S06|S07|S08|S09|S10|S11|S12|S13|S14|S15|S16|S17|S18|S19|S20|S21|S22|S23|S24|S25|S26|S27|S28|S29|S30|S31|S32|S33|S34|S35|S36|S37|S38|
+|id |S01|S02|S03|S04|S05|S06|S07|S08|S09|S10|S11|S12|S13|S14|S15|S16|S17|S18|S19|S20|S21|S22|S23|S24|S25|S26|S27|S28|S29|S30|S31|S32|S33|S34|S35|S36|S37|S38|
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
 |class|Type_L|Type_L|Type_L|Type_L|Type_CL|Type_L|Type_L|Type_L|Type_L|Type_B|Type_CL|Type_L|Type_L|Type_B|Type_B|Type_B|Type_B|Type_L|Type_B|Type_B|Type_B|Type_L|Type_N|Type_N|Type_N|Type_L|Type_L|Type_L|Type_CL|Type_L|Type_L|Type_B|Type_L|Type_CL|Type_B|Type_L|Type_B|Type_L|
 |ENSG00000000419|5.32|5.3|6.64|5.6|6.61|5.24|6.66|6.62|6.41|5.19|6.16|7.29|4.78|6.14|5.66|5.8|6.2|4.69|6.5|5.49|7.29|5.23|5.63|4.82|5.64|6.07|4.79|6.25|5.19|5.8|4.63|5.98|6.19|4.97|4.15|5.82|6.4|4.67|
@@ -36,7 +14,7 @@ Example training dataset:
 
 Example testing dataset: 
 
-|id|T01|T02|T03|T04|T05|T06|T07|T08|T09|T10|T11|T12|T13|T14|
+|id |T01|T02|T03|T04|T05|T06|T07|T08|T09|T10|T11|T12|T13|T14|
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
 |ENSG00000000419|6.06|5.25|5.15|5.36|5.22|5.75|4.79|6.01|6.39|7.71|5.7|5.85|5.34|5.07|
 |ENSG00000001036|4.47|5.39|5.28|5.82|5.75|6.96|6.09|5.07|5.3|5.76|5.4|4.27|5.03|5.68|

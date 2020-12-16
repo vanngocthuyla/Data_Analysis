@@ -12,7 +12,7 @@ In previous research ([1](https://github.com/choderalab/bayesian-itc), [2](https
 
 &Delta;H ~ Uniform(-100 kcal/mol, 100k cal/mol)
 
-&Delta;H_0 ~ Uniform(q<sub>min</sub> - $\delta$q, q<sub>max</sub> - $\delta$q)
+&Delta;H<sub>0</sub> ~ Uniform(q<sub>min</sub> - $\delta$q, q<sub>max</sub> - $\delta$q)
 
 &sigma; ~ uninformative Jeffreys prior
   

@@ -131,6 +131,27 @@ td{
   max-width: none;
 }
 
+table {
+    border-spacing: 0; 
+    border-collapse: collapse;
+    border:2px solid $black;
+    margin: 15px 5px;
+    padding: 0.65ex 0.5em 0.4ex 0.5em;
+}
+
+th{
+    border:2px solid $black;
+}
+
+td{
+    border:1px solid $black;
+}
+
+// Fixes images in popup boxes from Google Translate
+.gmnoprint img {
+  max-width: none;
+}
+
 .date {
   font-style: italic;
   color: $gray;
@@ -292,11 +313,6 @@ nav {
   border-top: 1px solid #ddd;
   border-bottom: 1px solid #ddd;
   background-color: $lightGray;
-}
-
-footer {
-  padding: 20px 0;
-  text-align: center;
 }
 
 // Settled on moving the import of syntax highlighting to the bottom of the CSS

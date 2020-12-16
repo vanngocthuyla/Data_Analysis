@@ -115,7 +115,10 @@ table {
     border-collapse: collapse;
     border:2px solid $black;
     margin: 15px 5px;
-    padding: 0.65ex 0.5em 0.4ex 0.5em;; 
+    padding: 0.65ex 0.5em 0.4ex 0.5em;
+    display: block;
+    overflow-x: auto;
+    overflow-y: auto;
 }
 
 th{
@@ -124,10 +127,6 @@ th{
 
 td{
     border:1px solid $black;
-    height: 100px;
-    overflow-y: scroll;
-    overflow-x: scroll;
-    position: relative;
 }
 
 // Fixes images in popup boxes from Google Translate

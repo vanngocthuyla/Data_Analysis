@@ -36,10 +36,13 @@ Data for running the Bayesian model can be found here: [Mg1EDTAp1a.DAT](https://
 
 - Numpyro: 
 Numpyro v0.4.1, Numpy v1.18.5, Matplotlib v3.2.2, Arviz v0.10.0
+
 - Pyro:
 Pyro v1.5.1, Torch v1.7.0, Numpy v1.18.5, Matplotlib v3.2.2, Arviz v0.10.0
+
 - Pymc3:
 Pymc3 v3.8, Theano v1.0.5, Pandas v0.25, Arviz v0.4.1
+
 - Python scripts: [numpyro](https://github.com/vanngocthuyla/bitc/blob/main/scripts/bitc_numpyro.py), [pyro](https://github.com/vanngocthuyla/bitc/blob/main/scripts/bitc_pyro.py), [pymc3](https://github.com/vanngocthuyla/bitc/blob/main/scripts/bitc_pymc3.py),
 
 ## 3. Accessing the PPL models and comparing their performance
@@ -110,6 +113,7 @@ Use function from Arviz to calculate r_hat factor of each paramete and plot r_ha
   <img src="https://github.com/vanngocthuyla/bitc/blob/main/images/rhat_Ls.png" width="300" />
   <img src="https://github.com/vanngocthuyla/bitc/blob/main/images/rhat_DeltaG.png" width="300" />
 </p>
+
 <p float="center">
   <img src="https://github.com/vanngocthuyla/bitc/blob/main/images/rhat_DeltaH.png" width="300" />
   <img src="https://github.com/vanngocthuyla/bitc/blob/main/images/rhat_DeltaH_0.png" width="300" />

@@ -5,15 +5,15 @@ Transcriptome analysis can be used for many purposes:
 
 ## Classification of cell subtypes and/or feature selection
 - [LDA](https://vanngocthuyla.github.io/Data_Analysis/pages/sequencing/LDA) (Linear Discriminant Analysis)
-- Naive_Bayes
-- SVM (Support Vector Machine)
-- swLDA (Stepwise Linear Discriminant Analysis)
-- Random Forest (RF)
+- [Naive Bayes](https://vanngocthuyla.github.io/Data_Analysis/pages/sequencing/Naive_Bayes)
+- [SVM](https://vanngocthuyla.github.io/Data_Analysis/pages/sequencing/SVM) (Support Vector Machine)
+- [swLDA](https://vanngocthuyla.github.io/Data_Analysis/pages/sequencing/swLDA) (Stepwise Linear Discriminant Analysis)
+- [Random Forest](https://vanngocthuyla.github.io/Data_Analysis/pages/sequencing/RF) (RF)
 
 ## Clustering
-- Hclust (Hierarchical Clustering)
-- K-means (K-means Clustering)
-- PCA (Principle Component Analysis)
+- [Hclust](https://vanngocthuyla.github.io/Data_Analysis/pages/sequencing/hclust)  (Hierarchical Clustering)
+- [K-means](https://vanngocthuyla.github.io/Data_Analysis/pages/sequencing/kmean) (K-means Clustering)
+- [PCA](https://vanngocthuyla.github.io/Data_Analysis/pages/sequencing/PCA) (Principle Component Analysis)
 
 ## Visualization
 - Heatmap

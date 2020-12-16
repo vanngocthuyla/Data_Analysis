@@ -68,6 +68,7 @@ kramdown:
   # Use GitHub flavored markdown, including triple backtick fenced code blocks
   input: GFM
   # Jekyll 3 and GitHub Pages now only support rouge for syntax highlighting
+  parse_block_html: true # default for kramdown is false. This will enable using Markdown links
   syntax_highlighter: rouge
   syntax_highlighter_opts:
     # Use existing pygments syntax highlighting css

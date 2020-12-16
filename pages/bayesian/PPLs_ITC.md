@@ -4,7 +4,7 @@
 
 In previous research ([1](https://github.com/choderalab/bayesian-itc), [2](https://github.com/nguyentrunghai/bayesian-itc/tree/d8cbf43240862e85d72d7d0c327ae2c6f750e600)), MCMC was applied to build Bayesian model that could do sampling from the posterior distribution of thermodynamic parameters from ITC data. 
 
-- Data: D $\equiv$ {q<sub>1</sub>, q<sub>2</sub>, ..., q<sub>n</sub>} consists of the observed heats per injection
+- Data: D = {q<sub>1</sub>, q<sub>2</sub>, ..., q<sub>n</sub>} consists of the observed heats per injection
 - Parameters: &theta; &equiv &Delta;G, &Delta;H, &Delta;H_0, [R]<sub>0</sub>, [L]<sub>s</sub>, log&sigma;)
 - Priors: 
 
@@ -20,7 +20,7 @@ In previous research ([1](https://github.com/choderalab/bayesian-itc), [2](https
 
 </div>
 
-where q<sub>min</sub> = min{q<sub>1</sub>, q<sub>2</sub>, ..., q<sub>n</sub>}, q<sub>max</sub> = max{q<sub>1</sub>, q<sub>2</sub>, ..., q<sub>n</sub>} and $\delta$q = q<sub>max</sub> - q<sub>min</sub>. Priors for [R]q<sub>0</sub>, [L]s follow the lognormal distribution if stated value is available: 
+where q<sub>min</sub> = min{q<sub>1</sub>, q<sub>2</sub>, ..., q<sub>n</sub>}, q<sub>max</sub> = max{q<sub>1</sub>, q<sub>2</sub>, ..., q<sub>n</sub>} and &Delta;q = q<sub>max</sub> - q<sub>min</sub>. Priors for [R]q<sub>0</sub>, [L]s follow the lognormal distribution if stated value is available: 
 
 ln[X]<sub>0</sub> ∼ Normal ([X]<sub>stated</sub>0, 0.1∗[X]<sub>stated</sub>0)
 

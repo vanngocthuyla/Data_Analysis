@@ -7,6 +7,7 @@ In previous research ([1](https://github.com/choderalab/bayesian-itc), [2](https
 - Data: D $\equiv$ {q1, q2, ..., qn} consists of the observed heats per injection
 - Parameters: $\theta$ $\equiv$ ($\Delta$ G, $\Delta$ H, $\Delta$ H_0, [R]0, [L]s, log_$\sigma$)
 - Priors: 
+
 <p align="center">
 $\delta$G ~ Uniform(-40 kcal/mol, 40 kcal/mol)
 
@@ -25,8 +26,9 @@ where qmin = min{q1, q2, qn}, qmax = max{q1, q2, ..., qn} and $\delta$q = qmax -
 ln[X]_0 ∼ Normal ([X]stated0, 0.1∗[X]stated0)
 
 Otherwise, they follow the uniform distribution. 
+
 <p align="center">
-[R]0 ∼ Uniform(0.001, 1.), [L]s ∼ Uniform(0.01, 10.).
+[R]0 ∼ Uniform(0.001, 1.), [L]s ∼ Uniform(0.01, 10.)
 
 Details information about the Bayesian model can be found [here](https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0203224). Pymc was used as the probabilistic programming language (PPL) for the model implementation. Now this model can be extended with other two PPLs, which are Numpyro and Pyro.
 

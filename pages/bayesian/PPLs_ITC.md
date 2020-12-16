@@ -12,25 +12,28 @@ Data of ITC to running the Bayesian model: [Mg1EDTAp1a.DAT](https://github.com/v
 
 - Numpyro: 
 Numpyro v0.4.1, Numpy v1.18.5, Matplotlib v3.2.2, Arviz v0.10.0
-- Pyro
+- Pyro:
 Pyro v1.5.1, Torch v1.7.0, Numpy v1.18.5, Matplotlib v3.2.2, Arviz v0.10.0
-- Pymc3
+- Pymc3:
 Pymc3 v3.8, Theano v1.0.5, Pandas v0.25, Arviz v0.4.1
 
 ## 4. Comparison of 3 PPLs
 
 ### Checking the convergence of 3 PPLs
 - Numpyro
-Trace plot
-95% BCI
+
+<img src='https://vanngocthuyla.github.io/Data_Analysis/images/bayesian/Numpyro_Plot.png' width="800">
+
 Summary
 - Pyro
-Trace plot
-95% BCI
+
+<img src='https://vanngocthuyla.github.io/Data_Analysis/images/bayesian/Pyro_Plot.png' width="800">
+
 Summary
 - Pymc3
-Trace plot
-95% BCI
+
+<img src='https://vanngocthuyla.github.io/Data_Analysis/images/bayesian/Pymc3_Plot.png' width="800">
+
 Summary
 
 ### Comparison of 3 PPLs

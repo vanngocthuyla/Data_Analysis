@@ -32,9 +32,7 @@ Otherwise, they follow the uniform distribution.
 [R]<sub>0</sub> ∼ Uniform(0.001, 1.), [L]<sub>s</sub> ∼ Uniform(0.01, 10.)
 </div>
 
-Details information about the Bayesian model can be found [here](https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0203224). Pymc was used as the probabilistic programming language (PPL) for the model implementation. Now this model can be extended with other two PPLs, which are Numpyro and Pyro.
-
-Data for running the Bayesian model can be found here: [Mg1EDTAp1a.DAT](https://github.com/vanngocthuyla/bitc/tree/main/inputs/Mg1EDTAp1a.DAT)
+Details information about the Bayesian model can be found [here](https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0203224). Pymc was used as the probabilistic programming language (PPL) for the model implementation. Now this model can be extended with other two PPLs, which are Numpyro and Pyro. Data for running the Bayesian model and do the comparison can be found here: [Mg1EDTAp1a.DAT](https://github.com/vanngocthuyla/bitc/tree/main/inputs/Mg1EDTAp1a.DAT)
 
 ## 2. Installation of three PPLs
 

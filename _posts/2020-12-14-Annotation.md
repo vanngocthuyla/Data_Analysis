@@ -1,4 +1,3 @@
-# Homology-based Annotation
 Homology-based Annotation for the list of DEGs (Differentially Expressed Genes) in interest
 
 ## Introduction

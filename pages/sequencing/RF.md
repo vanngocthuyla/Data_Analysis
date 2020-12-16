@@ -55,3 +55,61 @@ Confusion matrix:
 <img src='https://vanngocthuyla.github.io/Data_Analysis/images/sequencing/Random_Forest_Plot.jpg' width="800">
 
 <img src='https://vanngocthuyla.github.io/Data_Analysis/images/sequencing/Feature_Important_Plot.jpg' width="800">
+=======
+# Random Forest
+
+## Input 
+### Two datasets, one for training and one for testing 
+
+Example training dataset: 
+
+|id|S01|S02|S03|S04|S05|S06|S07|S08|S09|S10|S11|S12|S13|
+|--|---|---|---|---|---|---|---|---|---|---|---|---|---|
+|class|Nor|Nor|CL|CL|CL|CL|Nor|Nor|CL|Nor|Nor|CL|CL|
+|ENSG00000000003|2.33759|2.52662|2.7183|2.51855|3.04828|1.9738|2.24389|2.38385|2.57132|1.30435|1.4402|1.10014|1.58609|
+|ENSG00000000419|4.20574|3.7589|4.60355|4.33196|3.99043|3.36449|3.95675|3.37951|3.60308|3.9614|3.61078|3.40717|3.35534|
+|ENSG00000000457|1.15773|1.44836|1.30756|1.64957|1.22521|1.10778|1.65392|1.3595|1.614|1.55099|1.19662|0.790419|0.80516|
+|ENSG00000000460|2.10237|1.50082|2.36666|2.43947|2.50501|2.28542|2.7399|1.68931|2.43887|2.77064|2.4063|0.930404|1.14447|
+|...|...|...|...|...|...|...|...|...|...|...|...|...|...|
+
+Example testing dataset: 
+
+|id|T01|T02|T03|T04|T05|T06|T07|T08|T09|T10|T11|
+|--|---|---|---|---|---|---|---|---|---|---|---|
+|ENSG00000000003|2.33759|2.52662|2.7183|2.51855|3.04828|1.9738|2.24389|2.38385|2.57132|1.30435|1.10014|
+|ENSG00000000419|4.20574|3.7589|4.60355|4.33196|3.99043|3.36449|3.95675|3.37951|3.60308|3.9614|3.40717|
+|ENSG00000000457|1.15773|1.44836|1.30756|1.64957|1.22521|1.10778|1.65392|1.3595|1.614|1.55099|0.790419|
+|ENSG00000000460|2.10237|1.50082|2.36666|2.43947|2.50501|2.28542|2.7399|1.68931|2.43887|2.77064|0.930404|
+|ENSG00000000971|1.38253|0.373766|2.67851|2.51908|1.58319|2.63903|1.50035|1.08973|1.92864|0|0|
+|...|...|...|...|...|...|...|...|...|...|...|...|
+
+## Output for 100 trees
+### Result for TestSet
+
+|Sample|PredictedClass|
+|------|--------------|
+|T01|Nor|
+|T02|Nor|
+|T03|CL|
+|T04|CL|
+|T05|CL|
+|T06|CL|
+|T07|Nor|
+|T08|Nor|
+|T09|CL|
+|T10|Nor|
+|T11|CL|
+
+### Predict_stat
+Confusion matrix:
+
+|   |CL|Nor|class.error|
+|---|--|---|-----------|
+|CL |7|0|0|
+|Nor|0|6|0|
+
+### Plot Results
+
+<img src='https://vanngocthuyla.github.io/Data_Analysis/images/sequencing/Random_Forest_Plot.jpg' width="800">
+
+<img src='https://vanngocthuyla.github.io/Data_Analysis/images/sequencing/Feature_Important_Plot.jpg' width="800">

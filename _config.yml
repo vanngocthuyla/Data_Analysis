@@ -1,4 +1,4 @@
-theme: minima
+theme: jekyll-theme-cayman
 url: "https://vanngocthuyla.github.io"
 markdown: kramdown
 

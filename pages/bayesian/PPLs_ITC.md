@@ -10,9 +10,12 @@ Data of ITC to running the Bayesian model: [Mg1EDTAp1a.DAT](https://github.com/v
 
 ## 3. Installation of three PPLs
 
-- Numpyro
+- Numpyro: 
+Numpyro v0.4.1, Numpy v1.18.5, Matplotlib v3.2.2, Arviz v0.10.0
 - Pyro
-- Pymc3 
+Pyro v1.5.1, Torch v1.7.0, Numpy v1.18.5, Matplotlib v3.2.2, Arviz v0.10.0
+- Pymc3
+Pymc3 v3.8, Theano v1.0.5, Pandas v0.25, Arviz v0.4.1
 
 ## 4. Comparison of 3 PPLs
 

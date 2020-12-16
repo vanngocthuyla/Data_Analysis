@@ -4,7 +4,7 @@ Transcriptome analysis can be used for many purposes:
 - Quantification to understand transcriptional regulation 
 
 ## Classification of cell subtypes and/or feature selection
-- [LDA](https://vanngocthuyla.github.io/Data_Analysis/pages/LDA) (Linear Discriminant Analysis)
+- [LDA](https://vanngocthuyla.github.io/Data_Analysis/pages/sequencing/LDA) (Linear Discriminant Analysis)
 - Naive_Bayes
 - SVM (Support Vector Machine)
 - swLDA (Stepwise Linear Discriminant Analysis)

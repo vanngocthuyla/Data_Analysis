@@ -2,13 +2,11 @@ Comparison of the three PPLs (numpyro, pyro and pymc3) for running the ITC (isot
 
 ## 1. Introduction to the data
 
-Data of ITC to running the Bayesian model
-
-Plot of ITC data
+Data of ITC to running the Bayesian model: [Mg1EDTAp1a.DAT](https://github.com/vanngocthuyla/bitc/inputs/)
 
 ## 2. Bayesian Models
 
-Ref of article
+[Reference 1](https://github.com/choderalab/bayesian-itc) and [Reference 2](https://github.com/nguyentrunghai/bayesian-itc/tree/d8cbf43240862e85d72d7d0c327ae2c6f750e600) 
 
 ## 3. Installation of three PPLs
 

@@ -119,4 +119,4 @@ Confusion matrix:
 |Type_N|1|0|0|3|
 
 ### swLDA plot
-<img src='https://github.com/vanngocthuyla/RNA-seq-Analysis/blob/master/swLDA/swLDA_plot.jpg' width="800">
+<img src='https://vanngocthuyla.github.io/Data_Analysis/images/sequencing/swLDA_plot.jpg' width="800">

@@ -52,6 +52,6 @@ Confusion matrix:
 
 ### Plot Results
 
-<img src='https://github.com/vanngocthuyla/RNA-seq-Analysis/blob/master/RF/Random_Forest_Plot.jpg' width="800">
+<img src='https://vanngocthuyla.github.io/Data_Analysis/images/sequencing/Random_Forest_Plot.jpg' width="800">
 
-<img src='https://github.com/vanngocthuyla/RNA-seq-Analysis/blob/master/RF/Feature_Important_Plot.jpg' width="800">
+<img src='https://vanngocthuyla.github.io/Data_Analysis/images/sequencing/Feature_Important_Plot.jpg' width="800">

@@ -99,4 +99,4 @@ Confusion matrix:
 
 ### LDA plot
 
-<img src='https://github.com/vanngocthuyla/RNA-seq-Analysis/blob/master/LDA/LDA_plot.jpg' width="800">
+<img src='https://vanngocthuyla.github.io/Data_Analysis/images/sequencing/LDA_plot.jpg' width="800">

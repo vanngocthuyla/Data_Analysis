@@ -71,5 +71,5 @@
 
 ### Plot
 
-<img src='https://github.com/vanngocthuyla/RNA-seq-Analysis/blob/master/Hclust/Hclust_Plot.jpg' width="800">
+<img src='https://vanngocthuyla.github.io/Data_Analysis/images/sequencing/Hclust_Plot.jpg' width="800">
 

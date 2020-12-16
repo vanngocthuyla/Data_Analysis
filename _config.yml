@@ -72,7 +72,8 @@ kramdown:
   toc_levels: 1..6
   smart_quotes: lsquo,rsquo,ldquo,rdquo
   enable_coderay: false
-  parse_block_html: true # default for kramdown is false. This will enable using Markdown links
+  parse_block_html: true
+  parse_span_html: true
   syntax_highlighter: rouge
   syntax_highlighter_opts:
     # Use existing pygments syntax highlighting css

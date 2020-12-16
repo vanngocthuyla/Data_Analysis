@@ -1,3 +1,4 @@
+# LDA
 
 ## Input 
 ### Two datasets, one for training and one for testing LDA

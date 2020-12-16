@@ -110,10 +110,18 @@ img {
   max-width: 100%;
 }
 
-table{
+table {
+    border-spacing: 0;//remove spaces between cells
     border-collapse: collapse;
-    border-spacing: 0;
-    border:2px solid #ff0000;
+    margin: 15px 0;
+    padding: 0; 
+}
+  
+tr {
+    border-top: 1px solid #000000;
+    background-color: white;
+    margin: 0;
+    padding: 0; 
 }
 
 th{

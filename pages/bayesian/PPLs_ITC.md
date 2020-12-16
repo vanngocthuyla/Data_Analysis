@@ -14,18 +14,18 @@ In previous research ([1](https://github.com/choderalab/bayesian-itc), [2](https
 
 <div align="center"> &Delta;H<sub>0</sub> ~ Uniform(q<sub>min</sub> - $\delta$q, q<sub>max</sub> - $\delta$q) </div>
 
-<div align="center"> &sigma; ~ uninformative Jeffreys prior </div>
-
+<div align="center"> &sigma; ~ uninformative Jeffreys prior 
+</div>
 
 where q<sub>min</sub> = min{q<sub>1</sub>, q<sub>2</sub>, ..., q<sub>n</sub>}, q<sub>max</sub> = max{q<sub>1</sub>, q<sub>2</sub>, ..., q<sub>n</sub>} and &Delta;q = q<sub>max</sub> - q<sub>min</sub>. Priors for [R]q<sub>0</sub>, [L]s follow the lognormal distribution if stated value is available: 
 
-<div align="center"> ln[X]<sub>0</sub> ∼ Normal ([X]<sub>stated</sub>0, 0.1∗[X]<sub>stated</sub>0) </div>
-
+<div align="center"> ln[X]<sub>0</sub> ∼ Normal ([X]<sub>stated</sub>0, 0.1∗[X]<sub>stated</sub>0) 
+</div>
 
 Otherwise, they follow the uniform distribution. 
 
-<div align="center"> [R]<sub>0</sub> ∼ Uniform(0.001, 1.), [L]<sub>s</sub> ∼ Uniform(0.01, 10.) </div>
-
+<div align="center"> [R]<sub>0</sub> ∼ Uniform(0.001, 1.), [L]<sub>s</sub> ∼ Uniform(0.01, 10.) 
+</div>
 
 Details information about the Bayesian model can be found [here](https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0203224). Pymc was used as the probabilistic programming language (PPL) for the model implementation. Now this model can be extended with other two PPLs, which are Numpyro and Pyro. Data for running the Bayesian model and do the comparison can be found here: [Mg1EDTAp1a.DAT](https://github.com/vanngocthuyla/bitc/tree/main/inputs/Mg1EDTAp1a.DAT)
 

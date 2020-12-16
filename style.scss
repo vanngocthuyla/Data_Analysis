@@ -124,8 +124,18 @@ th{
 
 td{
     border:1px solid $black;
-    overflow: hidden;
-    overflow-y: auto;
+}
+
+.hack1 {
+  display: table;
+  table-layout: fixed;
+  width: 100%;
+}
+
+.hack2 {
+  display: table-cell;
+  overflow-x: auto;
+  width: 100%;
 }
 
 // Fixes images in popup boxes from Google Translate

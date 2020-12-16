@@ -26,7 +26,7 @@ Example testing dataset:
 ## Output
 ### LDA_prediction_train
 
-|Sample|TrueClass|PredictedClass|
+| Sample | TrueClass | PredictedClass |
 |:-----|:-------:|-------------:|
 |S01|Type_L|Type_L|
 |S02|Type_L|Type_L|

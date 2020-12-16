@@ -14,7 +14,7 @@ In previous research ([1](https://github.com/choderalab/bayesian-itc), [2](https
 
 <div align="center"> &sigma; ~ uninformative Jeffreys prior </div>
 
-<div align="center"> &Delta;H<sub>0</sub> ~ Uniform(q<sub>min</sub> - $\delta$q, q<sub>max</sub> - $\delta$q) </div>
+<div align="center"> &Delta;H<sub>0</sub> ~ Uniform(q<sub>min</sub> - &Delta;q, q<sub>max</sub> - &Delta;q) </div>
   
 where q<sub>min</sub> = min{q<sub>1</sub>, q<sub>2</sub>, ..., q<sub>n</sub>}, q<sub>max</sub> = max{q<sub>1</sub>, q<sub>2</sub>, ..., q<sub>n</sub>} and &Delta;q = q<sub>max</sub> - q<sub>min</sub>. Priors for [R]q<sub>0</sub>, [L]s follow the lognormal distribution if stated value is available: 
 

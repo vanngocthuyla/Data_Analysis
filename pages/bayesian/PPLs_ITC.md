@@ -55,7 +55,7 @@ Pymc3 v3.8, Theano v1.0.5, Pandas v0.25, Arviz v0.4.1
 - Numpyro
 
 <div align="center"> <img align="center" width="800" src='https://vanngocthuyla.github.io/Data_Analysis/images/bayesian/Numpyro_Plot.png'>  </div>  
-
+  
 |Parameter|mean|std|median|5.0%|95.0%|n_eff|r_hat|
 |:-------:|:--:|:-:|:----:|:--:|:---:|:---:|:---:|
 |P0|0.09|0.01|0.09|0.08|0.10|5376.25|1.00|
@@ -68,7 +68,7 @@ Pymc3 v3.8, Theano v1.0.5, Pandas v0.25, Arviz v0.4.1
 - Pyro
 
 <div align="center"> <img align="center" src='https://vanngocthuyla.github.io/Data_Analysis/images/bayesian/Pyro_Plot.png' width="800"> </div>  
-
+  
 |Parameter|mean|std|median|5.0%|95.0%|n_eff|r_hat|
 |:-------:|:--:|:-:|:----:|:--:|:---:|:---:|:---:|
 |P0|0.09|0.01|0.09|0.08|0.10|9944.88|1.00|

@@ -38,8 +38,20 @@ Pymc3 v3.8, Theano v1.0.5, Pandas v0.25, Arviz v0.4.1
 - Python scripts: [numpyro](https://github.com/vanngocthuyla/bitc/blob/main/scripts/bitc_numpyro.py), [pyro](https://github.com/vanngocthuyla/bitc/blob/main/scripts/bitc_pyro.py), [pymc3](https://github.com/vanngocthuyla/bitc/blob/main/scripts/bitc_pymc3.py),
 
 ## 3. Accessing the PPL models and comparing their performance
+  
+- Pyro:
+Pyro v1.5.1, Torch v1.7.0, Numpy v1.18.5, Matplotlib v3.2.2, Arviz v0.10.0
+
+- Pymc3:
+Pymc3 v3.8, Theano v1.0.5, Pandas v0.25, Arviz v0.4.1
+
+- Python scripts: [numpyro](https://github.com/vanngocthuyla/bitc/blob/main/scripts/bitc_numpyro.py), [pyro](https://github.com/vanngocthuyla/bitc/blob/main/scripts/bitc_pyro.py), [pymc3](https://github.com/vanngocthuyla/bitc/blob/main/scripts/bitc_pymc3.py),
+
+## 3. Accessing the PPL models and comparing their performance
 ### Checking the convergence of 3 PPLs
+
 - Pymc3  
+
 
 |Parameter|mean|sd|hpd_3%|hpd_97%|mcse_mean|mcse_sd|ess_mean|ess_sd|ess_bulk|ess_tail|r_hat|
 |:-------:|:--:|:-:|:---:|:-----:|:-------:|:-----:|:------:|:----:|:------:|:------:|:---:|
@@ -50,10 +62,11 @@ Pymc3 v3.8, Theano v1.0.5, Pandas v0.25, Arviz v0.4.1
 |DeltaH_0|-0.000|0.000|-0.000|-0.000|0.000|0.000|31162.0|31101.0|30914.0|34922.0|1.0|
 |log_sigma|-14.779|0.168|-15.091|-14.467|0.002|0.002|4880.0|4786.0|4233.0|1562.0|1.0|
 
+
 <div align="center"> <img align="center" src='https://vanngocthuyla.github.io/Data_Analysis/images/bayesian/Pymc3_Plot.png' width="800"></div>   
 
 - Numpyro
-  
+
 |Parameter|mean|std|median|5.0%|95.0%|n_eff|r_hat|
 |:-------:|:--:|:-:|:----:|:--:|:---:|:---:|:---:|
 |P0|0.09|0.01|0.09|0.08|0.10|5376.25|1.00|
@@ -62,6 +75,7 @@ Pymc3 v3.8, Theano v1.0.5, Pandas v0.25, Arviz v0.4.1
 |DeltaH|-2.10|0.15|-2.10|-2.34|-1.86|5488.17|1.00|
 |DeltaH_0|-0.00|0.00|-0.00|-0.00|-0.00|11006.09|1.00|
 |log_sigma|-14.78|0.16|-14.79|-15.05|-14.52|8316.83|1.00
+
 
 <div align="center"> <img align="center" width="800" src='https://vanngocthuyla.github.io/Data_Analysis/images/bayesian/Numpyro_Plot.png'>  </div>  
 
@@ -75,7 +89,7 @@ Pymc3 v3.8, Theano v1.0.5, Pandas v0.25, Arviz v0.4.1
 |DeltaH|-2.11|0.15|-2.10|-2.35|-1.86|10039.88|1.00|
 |DeltaH_0|-0.00|0.00|-0.00|-0.00|-0.00|20708.19|1.00|
 |log_sigma|-14.78|0.17|-14.79|-15.05|-14.51|16259.00|1.00|
-
+  
 <div align="center"> <img align="center" src='https://vanngocthuyla.github.io/Data_Analysis/images/bayesian/Pyro_Plot.png' width="800"> </div>  
 
 The trace plots and r_hat (Gelman-rubin) factors above indicate that in each PPL, the NUTS sampling model converged. To confirm that there was no difference between three Bayesian models, some statistical metrics would be plotted with the functions of the number of samples. In additions, the time for running was accessed to decide which PPL could provide the better performance. 
@@ -96,12 +110,13 @@ Calculate the mean and standard deviation of 8-chain samples and plot with the f
 <img align="center" src='https://vanngocthuyla.github.io/Data_Analysis/images/bayesian/mean_std_log_sigma.png' width="800">
 </div>  
 
+
 Even though the means from some parameters (P0, Ls and DeltaH) of Pyro model were little different to those of Numpyro and Pymc3 models, this difference was relative small and could be ignored. For the standard deviations, except for log_sigma, the standard deviations of other parameters calculated by three PPLs were approximate. This suggested that the Bayesian models of three PPLs reached to the similar convergence. 
 
 #### Gelman-rubin statistics 
 
 Use function from Arviz to calculate r_hat factor of each paramete and plot r_hat with the function of the number of samples
-
+  
 <div align="center">
 
 <p float="center">
@@ -119,6 +134,7 @@ Use function from Arviz to calculate r_hat factor of each paramete and plot r_ha
   <img src="https://vanngocthuyla.github.io/Data_Analysis/images/bayesian/rhat_log_sigma.png" width="300" /> 
 </p>
 </div>  
+
 
 r_hat (Gelman-rubin) factor is a common factor that can often be used to as the diagnosis for the convergence of the Bayesian model. From the above plots, except for r_hat calculated from the sampling of log_sigma of Pymc3 model was little different to those of Numpyro and Pyro models, the r_hat factors of other parameters from three PPLs were nearly equal to 1, pointing out that there was no difference between the multiple Markov chains of each PPL.
 

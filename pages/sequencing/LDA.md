@@ -16,7 +16,7 @@ Example training dataset:
 Example testing dataset: 
 
 |id |T01|T02|T03|T04|T05|T06|T07|T08|T09|T10|T11|T12|T13|T14|
-|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
+|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|
 |ENSG00000000419|6.06|5.25|5.15|5.36|5.22|5.75|4.79|6.01|6.39|7.71|5.7|5.85|5.34|5.07|
 |ENSG00000001036|4.47|5.39|5.28|5.82|5.75|6.96|6.09|5.07|5.3|5.76|5.4|4.27|5.03|5.68|
 |ENSG00000001084|4.47|6|5.77|5.76|5.76|4.64|4.07|4.52|4.16|3.24|4.35|2.49|5.89|4.37|
@@ -27,7 +27,7 @@ Example testing dataset:
 ### LDA_prediction_train
 
 | Sample | TrueClass | PredictedClass |
-|:-----|:-------:|-------------:|
+|:----:|:-------:|:------------:|
 |S01|Type_L|Type_L|
 |S02|Type_L|Type_L|
 |S03|Type_L|Type_L|
@@ -70,7 +70,7 @@ Example testing dataset:
 ### LDA_prediction_test
 
 |Sample|Class|
-|------|-----|
+|:----:|:---:|
 |T01|Type_B|
 |T02|Type_B|
 |T03|Type_B|
@@ -92,7 +92,7 @@ Overall accuracy for the training set: 0.8684211
 Confusion matrix:
 
 |True predicted|Type_B|Type_CL|Type_L|Type_N|
-|--------------|------|-------|------|------|
+|:------------:|:----:|:-----:|:----:|:----:|
 |Type_B|9|1|1|1|
 |Type_CL|0|3|0|0|
 |Type_L|1|0|19|0|

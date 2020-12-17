@@ -41,9 +41,7 @@ Pymc3 v3.8, Theano v1.0.5, Pandas v0.25, Arviz v0.4.1
 ### Checking the convergence of 3 PPLs
 - Pymc3  
 
-<div align="center"> <img align="center" src='https://vanngocthuyla.github.io/Data_Analysis/images/bayesian/Pymc3_Plot.png' width="800"></div>  
-
-<div align="center">  
+<div align="center"> <img align="center" src='https://vanngocthuyla.github.io/Data_Analysis/images/bayesian/Pymc3_Plot.png' width="800"></div>   
   
 |Parameter|mean|sd|hpd_3%|hpd_97%|mcse_mean|mcse_sd|ess_mean|ess_sd|ess_bulk|ess_tail|r_hat|
 |:-------:|:--:|:-:|:---:|:-----:|:-------:|:-----:|:------:|:----:|:------:|:------:|:---:|
@@ -53,13 +51,10 @@ Pymc3 v3.8, Theano v1.0.5, Pandas v0.25, Arviz v0.4.1
 |DeltaH|-2.104|0.151|-2.388|-1.826|0.001|0.001|13464.0|13464.0|13362.0|11330.0|1.0|
 |DeltaH_0|-0.000|0.000|-0.000|-0.000|0.000|0.000|31162.0|31101.0|30914.0|34922.0|1.0|
 |log_sigma|-14.779|0.168|-15.091|-14.467|0.002|0.002|4880.0|4786.0|4233.0|1562.0|1.0|
-</div>
 
 - Numpyro
 
-<div align="center"> <img align="center" width="800" src='https://vanngocthuyla.github.io/Data_Analysis/images/bayesian/Numpyro_Plot.png'>  </div> 
-
-<div align="center">  
+<div align="center"> <img align="center" width="800" src='https://vanngocthuyla.github.io/Data_Analysis/images/bayesian/Numpyro_Plot.png'>  </div>  
 
 |Parameter|mean|std|median|5.0%|95.0%|n_eff|r_hat|
 |:-------:|:--:|:-:|:----:|:--:|:---:|:---:|:---:|
@@ -69,13 +64,10 @@ Pymc3 v3.8, Theano v1.0.5, Pandas v0.25, Arviz v0.4.1
 |DeltaH|-2.10|0.15|-2.10|-2.34|-1.86|5488.17|1.00|
 |DeltaH_0|-0.00|0.00|-0.00|-0.00|-0.00|11006.09|1.00|
 |log_sigma|-14.78|0.16|-14.79|-15.05|-14.52|8316.83|1.00
-</div> 
 
 - Pyro
 
-<div align="center"> <img align="center" src='https://vanngocthuyla.github.io/Data_Analysis/images/bayesian/Pyro_Plot.png' width="800"> </div> 
-
-<div align="center">  
+<div align="center"> <img align="center" src='https://vanngocthuyla.github.io/Data_Analysis/images/bayesian/Pyro_Plot.png' width="800"> </div>  
 
 |Parameter|mean|std|median|5.0%|95.0%|n_eff|r_hat|
 |:-------:|:--:|:-:|:----:|:--:|:---:|:---:|:---:|
@@ -85,8 +77,6 @@ Pymc3 v3.8, Theano v1.0.5, Pandas v0.25, Arviz v0.4.1
 |DeltaH|-2.11|0.15|-2.10|-2.35|-1.86|10039.88|1.00|
 |DeltaH_0|-0.00|0.00|-0.00|-0.00|-0.00|20708.19|1.00|
 |log_sigma|-14.78|0.17|-14.79|-15.05|-14.51|16259.00|1.00|
-
-</div>  
 
 The trace plots and r_hat (Gelman-rubin) factors above indicate that in each PPL, the NUTS sampling model converged. To confirm that there was no difference between three Bayesian models, some statistical metrics would be plotted with the functions of the number of samples. In additions, the time for running was accessed to decide which PPL could provide the better performance. 
 

@@ -116,6 +116,8 @@ table {
     border:2px solid $black;
     margin: 15px 5px;
     padding: 0.65ex 0.5em 0.4ex 0.5em;
+    display: block;
+    overflow: scroll;
 }
 
 th {

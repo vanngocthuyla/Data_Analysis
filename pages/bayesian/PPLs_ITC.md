@@ -42,7 +42,7 @@ Pymc3 v3.8, Theano v1.0.5, Pandas v0.25, Arviz v0.4.1
 ### Checking the convergence of 3 PPLs
 - Pymc3
 
-<img align="center" src='https://github.com/vanngocthuyla/bitc/blob/main/images/Pymc3_Plot.png' width="800">
+<img align="center" src='https://github.com/vanngocthuyla/Data_Analysis/blob/gh-pages/images/bayesian/Pymc3_Plot.png' width="800">
 
 |Parameter|mean|sd|hpd_3%|hpd_97%|mcse_mean|mcse_sd|ess_mean|ess_sd|ess_bulk|ess_tail|r_hat|
 |:-------:|:--:|:-:|:---:|:-----:|:-------:|:-----:|:------:|:----:|:------:|:------:|:---:|
@@ -55,7 +55,7 @@ Pymc3 v3.8, Theano v1.0.5, Pandas v0.25, Arviz v0.4.1
 
 - Numpyro
 
-<img align="center" width="800" src='https://github.com/vanngocthuyla/bitc/blob/main/images/Numpyro_Plot.png'>
+<img align="center" width="800" src='https://github.com/vanngocthuyla/Data_Analysis/blob/gh-pages/images/bayesian/Numpyro_Plot.png'>
 
 |Parameter|mean|std|median|5.0%|95.0%|n_eff|r_hat|
 |:-------:|:--:|:-:|:----:|:--:|:---:|:---:|:---:|
@@ -68,7 +68,7 @@ Pymc3 v3.8, Theano v1.0.5, Pandas v0.25, Arviz v0.4.1
 
 - Pyro
 
-<img align="center" src='https://github.com/vanngocthuyla/bitc/blob/main/images/Pyro_Plot.png' width="800">
+<img align="center" src='https://github.com/vanngocthuyla/Data_Analysis/blob/gh-pages/images/bayesian/Pyro_Plot.png' width="800">
 
 |Parameter|mean|std|median|5.0%|95.0%|n_eff|r_hat|
 |:-------:|:--:|:-:|:----:|:--:|:---:|:---:|:---:|
@@ -87,12 +87,12 @@ The trace plots and r_hat (Gelman-rubin) factors above indicate that in each PPL
 
 Calculate the mean and standard deviation of 8-chain samples and plot with the function of the number of samples
 
-<img align="center" src='https://github.com/vanngocthuyla/bitc/blob/main/images/mean_std_P0.png' width="800">
-<img align="center" src='https://github.com/vanngocthuyla/bitc/blob/main/images/mean_std_Ls.png' width="800">
-<img align="center" src='https://github.com/vanngocthuyla/bitc/blob/main/images/mean_std_DeltaG.png' width="800">
-<img align="center" src='https://github.com/vanngocthuyla/bitc/blob/main/images/mean_std_DeltaH.png' width="800">
-<img align="center" src='https://github.com/vanngocthuyla/bitc/blob/main/images/mean_std_DeltaH_0.png' width="800">
-<img align="center" src='https://github.com/vanngocthuyla/bitc/blob/main/images/mean_std_log_sigma.png' width="800">
+<img align="center" src='https://github.com/vanngocthuyla/Data_Analysis/blob/gh-pages/images/bayesian/mean_std_P0.png' width="800">
+<img align="center" src='https://github.com/vanngocthuyla/Data_Analysis/blob/gh-pages/images/bayesian/mean_std_Ls.png' width="800">
+<img align="center" src='https://github.com/vanngocthuyla/Data_Analysis/blob/gh-pages/images/bayesian/mean_std_DeltaG.png' width="800">
+<img align="center" src='https://github.com/vanngocthuyla/Data_Analysis/blob/gh-pages/images/bayesian/mean_std_DeltaH.png' width="800">
+<img align="center" src='https://github.com/vanngocthuyla/Data_Analysis/blob/gh-pages/images/bayesian/mean_std_DeltaH_0.png' width="800">
+<img align="center" src='https://github.com/vanngocthuyla/Data_Analysis/blob/gh-pages/images/bayesian/mean_std_log_sigma.png' width="800">
 
 Even though the means from some parameters (P0, Ls and DeltaH) of Pyro model were little different to those of Numpyro and Pymc3 models, this difference was relative small and could be ignored. For the standard deviations, except for log_sigma, the standard deviations of other parameters calculated by three PPLs were approximate. This suggested that the Bayesian models of three PPLs reached to the similar convergence. 
 
@@ -101,15 +101,15 @@ Even though the means from some parameters (P0, Ls and DeltaH) of Pyro model wer
 Use function from Arviz to calculate r_hat factor of each paramete and plot r_hat with the function of the number of samples
 
 <p float="center">
-  <img src="https://github.com/vanngocthuyla/bitc/blob/main/images/rhat_P0.png" width="300" />
-  <img src="https://github.com/vanngocthuyla/bitc/blob/main/images/rhat_Ls.png" width="300" />
-  <img src="https://github.com/vanngocthuyla/bitc/blob/main/images/rhat_DeltaG.png" width="300" />
+  <img src="https://github.com/vanngocthuyla/Data_Analysis/blob/gh-pages/images/bayesian/rhat_P0.png" width="250" />
+  <img src="https://github.com/vanngocthuyla/Data_Analysis/blob/gh-pages/images/bayesian/rhat_Ls.png" width="250" />
+  <img src="https://github.com/vanngocthuyla/Data_Analysis/blob/gh-pages/images/bayesian/rhat_DeltaG.png" width="250" />
 </p>
 
 <p float="center">
-  <img src="https://github.com/vanngocthuyla/bitc/blob/main/images/rhat_DeltaH.png" width="300" />
-  <img src="https://github.com/vanngocthuyla/bitc/blob/main/images/rhat_DeltaH_0.png" width="300" />
-  <img src="https://github.com/vanngocthuyla/bitc/blob/main/images/rhat_log_sigma.png" width="300" /> 
+  <img src="https://github.com/vanngocthuyla/Data_Analysis/blob/gh-pages/images/bayesian/rhat_DeltaH.png" width="250" />
+  <img src="https://github.com/vanngocthuyla/Data_Analysis/blob/gh-pages/images/bayesian/rhat_DeltaH_0.png" width="250" />
+  <img src="https://github.com/vanngocthuyla/Data_Analysis/blob/gh-pages/images/bayesian/rhat_log_sigma.png" width="250" /> 
 </p>
 
 r_hat (Gelman-rubin) factor is a common factor that can often be used to as the diagnosis for the convergence of the Bayesian model. From the above plots, except for r_hat calculated from the sampling of log_sigma of Pymc3 model was little different to those of Numpyro and Pyro models, the r_hat factors of other parameters from three PPLs were nearly equal to 1, pointing out that there was no difference between the multiple Markov chains of each PPL.

@@ -40,8 +40,11 @@ Pymc3 v3.8, Theano v1.0.5, Pandas v0.25, Arviz v0.4.1
 ## 3. Accessing the PPL models and comparing their performance
 
 ### Checking the convergence of 3 PPLs
-- Pymc3
 
+<div align="center">
+
+- Pymc3
+  
 <img align="center" src='https://vanngocthuyla.github.io/Data_Analysis/images/bayesian/Pymc3_Plot.png' width="800">
 
 |Parameter|mean|sd|hpd_3%|hpd_97%|mcse_mean|mcse_sd|ess_mean|ess_sd|ess_bulk|ess_tail|r_hat|
@@ -79,6 +82,8 @@ Pymc3 v3.8, Theano v1.0.5, Pandas v0.25, Arviz v0.4.1
 |DeltaH_0|-0.00|0.00|-0.00|-0.00|-0.00|20708.19|1.00|
 |log_sigma|-14.78|0.17|-14.79|-15.05|-14.51|16259.00|1.00|
 
+</div>  
+
 The trace plots and r_hat (Gelman-rubin) factors above indicate that in each PPL, the NUTS sampling model converged. To confirm that there was no difference between three Bayesian models, some statistical metrics would be plotted with the functions of the number of samples. In additions, the time for running was accessed to decide which PPL could provide the better performance. 
 
 ### Comparison of 3 PPLs
@@ -87,18 +92,23 @@ The trace plots and r_hat (Gelman-rubin) factors above indicate that in each PPL
 
 Calculate the mean and standard deviation of 8-chain samples and plot with the function of the number of samples
 
+<div align="center">
+
 <img align="center" src='https://vanngocthuyla.github.io/Data_Analysis/images/bayesian/mean_std_P0.png' width="800">
 <img align="center" src='https://vanngocthuyla.github.io/Data_Analysis/images/bayesian/mean_std_Ls.png' width="800">
 <img align="center" src='https://vanngocthuyla.github.io/Data_Analysis/images/bayesian/mean_std_DeltaG.png' width="800">
 <img align="center" src='https://vanngocthuyla.github.io/Data_Analysis/images/bayesian/mean_std_DeltaH.png' width="800">
 <img align="center" src='https://vanngocthuyla.github.io/Data_Analysis/images/bayesian/mean_std_DeltaH_0.png' width="800">
 <img align="center" src='https://vanngocthuyla.github.io/Data_Analysis/images/bayesian/mean_std_log_sigma.png' width="800">
+</div>  
 
 Even though the means from some parameters (P0, Ls and DeltaH) of Pyro model were little different to those of Numpyro and Pymc3 models, this difference was relative small and could be ignored. For the standard deviations, except for log_sigma, the standard deviations of other parameters calculated by three PPLs were approximate. This suggested that the Bayesian models of three PPLs reached to the similar convergence. 
 
 #### Gelman-rubin statistics 
 
 Use function from Arviz to calculate r_hat factor of each paramete and plot r_hat with the function of the number of samples
+
+<div align="center">
 
 <p float="center">
   <img src="https://vanngocthuyla.github.io/Data_Analysis/images/bayesian/rhat_P0.png" width="300" />
@@ -114,6 +124,7 @@ Use function from Arviz to calculate r_hat factor of each paramete and plot r_ha
   <img src="https://vanngocthuyla.github.io/Data_Analysis/images/bayesian/rhat_DeltaH_0.png" width="300" />
   <img src="https://vanngocthuyla.github.io/Data_Analysis/images/bayesian/rhat_log_sigma.png" width="300" /> 
 </p>
+</div/
 
 r_hat (Gelman-rubin) factor is a common factor that can often be used to as the diagnosis for the convergence of the Bayesian model. From the above plots, except for r_hat calculated from the sampling of log_sigma of Pymc3 model was little different to those of Numpyro and Pyro models, the r_hat factors of other parameters from three PPLs were nearly equal to 1, pointing out that there was no difference between the multiple Markov chains of each PPL.
 

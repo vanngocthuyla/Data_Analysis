@@ -118,7 +118,7 @@ Use function from Arviz to calculate r_hat factor of each paramete and plot r_ha
   <img src="https://vanngocthuyla.github.io/Data_Analysis/images/bayesian/rhat_DeltaH_0.png" width="300" />
   <img src="https://vanngocthuyla.github.io/Data_Analysis/images/bayesian/rhat_log_sigma.png" width="300" /> 
 </p>
-</div/
+</div>  
 
 r_hat (Gelman-rubin) factor is a common factor that can often be used to as the diagnosis for the convergence of the Bayesian model. From the above plots, except for r_hat calculated from the sampling of log_sigma of Pymc3 model was little different to those of Numpyro and Pyro models, the r_hat factors of other parameters from three PPLs were nearly equal to 1, pointing out that there was no difference between the multiple Markov chains of each PPL.
 

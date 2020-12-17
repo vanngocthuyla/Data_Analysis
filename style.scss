@@ -121,7 +121,6 @@ table {
     display: block;
     overflow-x: auto;
     overflow-y: auto;
-    position: relative;
     white-space: nowrap;
 }
 
@@ -129,6 +128,7 @@ th{
     font-weight: bold;
     border: 1px solid $black;
     padding: 5px;
+    text-align: center;
 }
 
 td{

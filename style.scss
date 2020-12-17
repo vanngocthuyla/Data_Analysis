@@ -120,6 +120,7 @@ table {
     max-width: 100%;
     max-height: 500px;
     overflow-x: auto;
+    overflow-y: auto;
     white-space: nowrap;
 }
 
@@ -128,12 +129,12 @@ th{
     border: 1px solid $black;
     padding: 5px;
     text-align: center;
+    position: fixed;
 }
 
 td{
     border: 1px solid $black;
     padding: 5px;
-    overflow-y: auto;
 }
 
 sub, sup {

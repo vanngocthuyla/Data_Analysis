@@ -118,6 +118,7 @@ table {
     padding: 0.65ex 0.5em 0.4ex 0.5em;
     display: block;
     max-width: 100%;
+    max-height: 500px;
     overflow-x: auto;
     white-space: nowrap;
 }
@@ -132,9 +133,7 @@ th{
 td{
     border: 1px solid $black;
     padding: 5px;
-    max-height: 500px;
     overflow-y: auto;
-
 }
 
 sub, sup {

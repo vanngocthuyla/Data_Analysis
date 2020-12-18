@@ -20,7 +20,7 @@ The example results shows the KEGG pathways of DEGs belonging to terpenoid backb
 
 ## Results  
 
-Blast2GO results of some DEGs including Blastx description, IPS terms, GO terms and GO names 
+- Blast2GO results of some DEGs including Blastx description, IPS terms, GO terms and GO names 
 
 |SeqName|Description_Blastx|InterPro IDs|GO IDs|GO Names|
 |-------|------------------|------------|------|--------|
@@ -34,13 +34,13 @@ Blast2GO results of some DEGs including Blastx description, IPS terms, GO terms 
 |CDS_08|pentatricopeptide repeat-containing protein|IPR011990 (G3DSA:1.25.40.GENE3D); IPR002885 (PFAM); IPR011990 (G3DSA:1.25.40.GENE3D); IPR032867 (PFAM); IPR002885 (PFAM); IPR002885 (PANTHER)|F:GO:0005515; F:GO:0008270|F:protein binding; F:zinc ion binding|
 |CDS_09|probable cyclic nucleotide-gated ion channel 20|IPR005821 (G3DSA:1.10.287.GENE3D); IPR014710 (G3DSA:2.60.120.GENE3D); IPR014710 (PANTHER); IPR014710 (PTHR45651:PANTHER); IPR000595 (PROSITE_PROFILES); IPR018490 (SUPERFAMILY); IPR018490 (SUPERFAMILY)|F:GO:0005216; P:GO:0006811; C:GO:0016020; P:GO:0055085|F:ion channel activity; P:ion transport; C:membrane; P:transmembrane transport|
 |CDS_10|transcription factor bHLH149-like|IPR036638 (G3DSA:4.10.280.GENE3D); IPR036638 (PANTHER); IPR036638 (PTHR33124:PANTHER); IPR011598 (PROSITE_PROFILES); IPR036638 (SUPERFAMILY)|F:GO:0046983|F:protein dimerization activity|
-
-Venn Diagram for DEGs annotated of 4 different databases: NR, UniProt, RefSeq and KEGG  
+  
+- Venn Diagram for DEGs annotated of 4 different databases: NR, UniProt, RefSeq and KEGG  
 
 <div align="center">
 <img src='https://vanngocthuyla.github.io/Data_Analysis/images/sequencing/Venn_Diagram_for DEGs_annotated.jpg' width="800"> </div>
-
-KEGG pathway of DEGs in the terpenoisd biosynthesis:   
+  
+- KEGG pathway of DEGs in the terpenoisd biosynthesis:   
 
 <div align="center">
 <img src='https://vanngocthuyla.github.io/Data_Analysis/images/sequencing/KEGG_TPS_Biosynthesis.jpg' width="1200"> </div>

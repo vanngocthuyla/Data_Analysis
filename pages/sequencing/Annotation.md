@@ -37,10 +37,13 @@ Blast2GO results of some DEGs including Blastx description, IPS terms, GO terms 
 
 Venn Diagram for DEGs annotated of 4 different databases: NR, UniProt, RefSeq and KEGG  
 
-<img src='https://vanngocthuyla.github.io/Data_Analysis/images/sequencing/Venn_Diagram_for DEGs_annotated.jpg' width="800">
+<div align="center">
+<img src='https://vanngocthuyla.github.io/Data_Analysis/images/sequencing/Venn_Diagram_for DEGs_annotated.jpg' width="800"> </div>
 
 KEGG pathway of DEGs in the terpenoisd biosynthesis:   
 
-<img src='https://vanngocthuyla.github.io/Data_Analysis/images/sequencing/KEGG_TPS_Biosynthesis.jpg' width="1200">
+<div align="center">
+<img src='https://vanngocthuyla.github.io/Data_Analysis/images/sequencing/KEGG_TPS_Biosynthesis.jpg' width="1200"> </div>
+
 
 

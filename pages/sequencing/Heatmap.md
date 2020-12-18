@@ -1,5 +1,5 @@
 ## Heatmap
 
-Check the code and how to draw heatmap in jpynb file
+Check the [code](https://github.com/vanngocthuyla/Data_Analysis/blob/gh-pages/scripts/jpynb/Heatmap.ipynb) and how to draw heatmap in jpynb file
 
 <img src='https://vanngocthuyla.github.io/Data_Analysis/images/sequencing/Heatmap.jpg' width="1200">

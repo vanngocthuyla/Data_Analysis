@@ -1,6 +1,6 @@
 ## PCA Plot
 
-Check the (code)[https://github.com/vanngocthuyla/Data_Analysis/blob/gh-pages/scripts/jpynb/PCA_Plot.ipynb] and how to draw plot in jpynb file
+Check the [code](https://github.com/vanngocthuyla/Data_Analysis/blob/gh-pages/scripts/jpynb/PCA_Plot.ipynb) and how to draw plot in jpynb file
 
-<src='https://vanngocthuyla.github.io/Data_Analysis/images/sequencing/PCA_Plot.png' width="1200">
+<img src='https://vanngocthuyla.github.io/Data_Analysis/images/sequencing/PCA_Plot.png' width="1200">
 

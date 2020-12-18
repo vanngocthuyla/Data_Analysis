@@ -20,7 +20,8 @@ The example results shows the KEGG pathways of DEGs belonging to terpenoid backb
 
 ## Results  
 
-- Blast2GO results of some DEGs including Blastx description, IPS terms, GO terms and GO names 
+<div align="center">
+- Blast2GO results of some DEGs including Blastx description, IPS terms, GO terms and GO names  
 
 |SeqName|Description_Blastx|InterPro IDs|GO IDs|GO Names|
 |-------|------------------|------------|------|--------|
@@ -37,13 +38,9 @@ The example results shows the KEGG pathways of DEGs belonging to terpenoid backb
   
 - Venn Diagram for DEGs annotated of 4 different databases: NR, UniProt, RefSeq and KEGG  
 
-<div align="center">
-<img src='https://vanngocthuyla.github.io/Data_Analysis/images/sequencing/Venn_Diagram_for DEGs_annotated.jpg' width="400"> </div>
+<img src='https://vanngocthuyla.github.io/Data_Analysis/images/sequencing/Venn_Diagram_for DEGs_annotated.jpg' width="400"> 
   
 - KEGG pathway of DEGs in the terpenoisd biosynthesis:   
 
-<div align="center">
-<img src='https://vanngocthuyla.github.io/Data_Analysis/images/sequencing/KEGG_TPS_Biosynthesis.jpg' width="1200"> </div>
-
-
-
+<img src='https://vanngocthuyla.github.io/Data_Analysis/images/sequencing/KEGG_TPS_Biosynthesis.jpg' width="1200"> 
+</div>  

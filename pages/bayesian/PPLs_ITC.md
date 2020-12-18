@@ -1,5 +1,9 @@
 # Benchmark of three probabilistic programming languages for Bayesian analysis of isothermal titration calorimetry data
 
+date: 2020-12-18
+author: Van La, Trung Hai Nguyen, Yuanqing Wang, John Chodera, and David D. L. Minh
+short: We compared the performance of three probabilistic programming languages - pymc3, pyro, and numpyro - on a binding-related Bayesian statistical inference problem. numpyro was by far the fastest.
+
 Jump to [abstract](#abstract), [introduction](#introduction), [methods](#methods), [results](#results), or [conclusions](#conclusions).
 
 ## Abstract

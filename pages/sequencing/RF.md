@@ -25,6 +25,10 @@ Example testing dataset:
 |ENSG00000000971|1.38253|0.373766|2.67851|2.51908|1.58319|2.63903|1.50035|1.08973|1.92864|0|0|
 |...|...|...|...|...|...|...|...|...|...|...|...|
 
+## Code  
+
+[R Code to run Random Forest](https://github.com/vanngocthuyla/Data_Analysis/tree/main/scripts/sequencing/RandomForest_code.R)  
+
 ## Output for 100 trees
 ### Result for TestSet
 

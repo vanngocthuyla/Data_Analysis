@@ -22,6 +22,10 @@ Example testing dataset:
 |ENSG00000001497|5.27|4.27|6.58|5.54|5.57|6.4|4.91|4.79|4.95|5.83|4.89|5.33|4.23|6.03|
 |...|...|...|...|...|...|...|...|...|...|...|...|...|...|...|
 
+## Code  
+
+[R Code to run SVM](https://github.com/vanngocthuyla/Data_Analysis/tree/main/scripts/sequencing/SVM_code.R)  
+
 ## Output
 ### Prediction_test
 

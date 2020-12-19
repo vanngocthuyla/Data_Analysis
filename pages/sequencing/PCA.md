@@ -9,6 +9,10 @@
 |ENSG00000001497|5.27|4.27|6.58|5.54|5.57|6.4|
 |...|...|...|...|...|...|...|
 
+## Code  
+
+[R Code to run PCA](https://github.com/vanngocthuyla/Data_Analysis/tree/main/scripts/sequencing/PCA_code.R)  
+
 ## Output Data
 ### PCA_table
 

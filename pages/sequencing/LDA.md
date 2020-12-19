@@ -25,7 +25,7 @@ Example testing dataset:
 
 ## Code  
 
-[R Code to run LDA](https://github.com/vanngocthuyla/Data_Analysis/tree/main/scripts/sequencing/LDA_code.R)  
+[R Code to run LDA](https://github.com/vanngocthuyla/Data_Analysis/blob/gh-pages/scripts/sequencing/LDA_code.R)  
 
 ## Output
 ### LDA_prediction_train

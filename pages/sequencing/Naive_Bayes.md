@@ -25,7 +25,7 @@ Example testing dataset:
 
 ## Code  
 
-[R Code to run Naive Bayes](https://github.com/vanngocthuyla/Data_Analysis/tree/main/scripts/sequencing/NaiveBayes_code.R)  
+[R Code to run Naive Bayes](https://github.com/vanngocthuyla/Data_Analysis/blob/gh-pages/scripts/sequencing/NaiveBayes_code.R)  
 
 ## Output
 ### Result For TestSet

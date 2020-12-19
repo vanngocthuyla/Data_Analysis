@@ -24,7 +24,7 @@ Example testing dataset:
 
 ## Code  
 
-[R Code to run swLDA](https://github.com/vanngocthuyla/Data_Analysis/tree/main/scripts/sequencing/swLDA_codee.R)  
+[R Code to run swLDA](https://github.com/vanngocthuyla/Data_Analysis/blob/gh-pages/scripts/sequencing/swLDA_codee.R)  
 
 ## Output
 

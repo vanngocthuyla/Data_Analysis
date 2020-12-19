@@ -27,7 +27,7 @@ Example testing dataset:
 
 ## Code  
 
-[R Code to run Random Forest](https://github.com/vanngocthuyla/Data_Analysis/tree/main/scripts/sequencing/RandomForest_code.R)  
+[R Code to run Random Forest](https://github.com/vanngocthuyla/Data_Analysis/blob/gh-pages/scripts/sequencing/RandomForest_code.R)  
 
 ## Output for 100 trees
 ### Result for TestSet

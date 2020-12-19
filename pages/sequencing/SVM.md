@@ -24,7 +24,7 @@ Example testing dataset:
 
 ## Code  
 
-[R Code to run SVM](https://github.com/vanngocthuyla/Data_Analysis/tree/main/scripts/sequencing/SVM_code.R)  
+[R Code to run SVM](https://github.com/vanngocthuyla/Data_Analysis/blob/gh-pages/scripts/sequencing/SVM_code.R)  
 
 ## Output
 ### Prediction_test

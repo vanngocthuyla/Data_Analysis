@@ -12,4 +12,4 @@ Ph.D. Candidate in Illinois Tech, Chicago, US
 
 ### Contact me
 
-[langocthuyvan@gmail.com](mailto:langocthuyvan@gmail.com)
+[vla@hawk.iit.edu](mailto:vla@hawk.iit.edu)

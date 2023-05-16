@@ -4,7 +4,7 @@ title: About
 permalink: /about/
 ---
 
-Ph.D. Student in Illinois Tech
+Ph.D. Candidate in Illinois Tech, Chicago, US
 
 ### More Information
 

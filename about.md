@@ -4,7 +4,7 @@ title: About
 permalink: /about/
 ---
 
-Ph.D. Student in Illinois Tech
+Ph.D. Candidate in Illinois Tech, Chicago, USA
 
 ### More Information
 
@@ -12,4 +12,4 @@ Ph.D. Student in Illinois Tech
 
 ### Contact me
 
-[langocthuyvan@gmail.com](mailto:langocthuyvan@gmail.com)
+[vla@hawk.iit.edu](mailto:vla@hawk.iit.edu)

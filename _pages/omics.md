@@ -1,6 +1,7 @@
 ---
 layout: page
 title: Omics Analysis
+sitemap: false
 permalink: /omics
 ---
 

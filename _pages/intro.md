@@ -10,7 +10,7 @@ I am a computational biologist who focuses on chemical biology. I develop and ap
 I can utilize statistical models, machine learning methods, and construct workflow for data analysis. Some of my achievements are described below:
 
 **Transcriptomic analysis**
-- Profiling the set of RNA transcripts under specific circumstances or in specific cells.
+- Profiling the set of RNA transcripts under specific circumstances or in specific cells
 - Homology-based annotation for the list of DEGs (Differentially Expressed Genes) in interest
 - Identification important markers for cell subtypes
 - Quantification to understand transcriptional regulation

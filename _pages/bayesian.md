@@ -1,3 +1,10 @@
+---
+layout: page
+title: Data modeling
+permalink: /modeling
+---
+
+
 # Statistical modeling
 
 In the initial phases of drug design, high-throughput screening assays can be conducted under biochemical/cellular conditions to generate concentration-response datasets. Fitting curves to these datasets using classical Hill equations provides the estimation IC50,  an important metric for comparing the potency of various compounds. Typically, controls in the assay are utilized for response normalization but not for curve fitting. Our research demonstrates that incorporating controls can enhance the accuracy of IC50 estimation, particularly for incomplete curves [[Ref](https://pubs.acs.org/doi/10.1021/acs.jmedchem.3c00107)].

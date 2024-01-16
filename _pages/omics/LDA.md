@@ -104,4 +104,4 @@ Confusion matrix:
 
 ### LDA plot
 
-<img src='https://vanngocthuyla.github.io/Data_Analysis/images/sequencing/LDA_plot.jpg' width="800">
+<img src='https://vanngocthuyla.github.io/Data_Analysis/images/omics/LDA_plot.jpg' width="800">

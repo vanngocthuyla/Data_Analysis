@@ -15,7 +15,7 @@ Testing datasets, drawn from the research by Stephanie C. Yu, comprised 21 cases
 
 <div align="center"> <img src='https://vanngocthuyla.github.io/Data_Analysis/images/sequencing/NIPT_T21.jpg' width="800"> </div>
 <div align="center">C</div>
-<div align="center">Figure 2. Testing datasets for NIPT</div>
+**<div align="center">Figure 2. Testing datasets for NIPT</div>**
 
 The testing results demonstrated that the pipeline achieved 100% accuracy in detecting trisomy 13 and 21, and 98.81% accuracy for trisomy 18.
 

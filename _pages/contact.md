@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Contact
-permalink: /contact/
+permalink: /contact
 ---
 
 Ph.D. Candidate in Illinois Tech, Chicago, US

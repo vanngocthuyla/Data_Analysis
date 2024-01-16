@@ -1,6 +1,7 @@
 ---
 layout: page
 title: Intro
+sitemap: false
 permalink: /
 ---
 

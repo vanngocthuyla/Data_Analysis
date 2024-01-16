@@ -1,6 +1,7 @@
 ---
 layout: page
 title: Data modeling
+sitemap: false
 permalink: /modeling
 ---
 

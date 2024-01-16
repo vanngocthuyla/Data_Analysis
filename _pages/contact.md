@@ -1,6 +1,7 @@
 ---
 layout: page
 title: Contact
+sitemap: false
 permalink: /contact
 ---
 

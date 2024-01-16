@@ -10,7 +10,7 @@ markdown: kramdown
 name: Van La
 
 # Short bio or description (displayed in the header)
-description: Bio Data Analyst
+description: Computational Biologist
 
 # URL of your avatar or profile pic (you could use your GitHub profile pic)
 avatar:
@@ -22,7 +22,7 @@ avatar:
 # Includes an icon in the footer for each username you enter
 footer-links:
   dribbble:
-  email: langocthuyvan@gmail.com
+  email: vla@hawk.iit.edu
   facebook:
   flickr:
   github: vanngocthuyla

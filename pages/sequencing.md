@@ -3,7 +3,7 @@
 Whole transcriptome sequencing data or RNA-sequencing data serves as a valuable resource to elucidate the fundamental molecular mechanisms of biological conditions, offering a molecular foundation for addressing questions of interest. The analysis of treatment and control datasets allows the identification of differentially expressed genes (DEGs) in specific circumstances or cell subtypes. Comparing these DEGs with reported markers facilitates the diagnosis of genetic diseases. Additionally, quantifying DEGs reveals disease-induced expression patterns, offering insights into the disease stages.
 
 The pipeline developed to identify DEGs from RNA-sequencing data can be found at the link below: 
-- Profiling and [Annotation](https://vanngocthuyla.github.io/Data_Analysis/pages/sequencing/Annotation) of the set of RNA transcripts under specific circumstances or in specific cells.
+- [Profiling](https://iopscience.iop.org/article/10.1088/1755-1315/749/1/012033/pdf) and [Annotation](https://vanngocthuyla.github.io/Data_Analysis/pages/sequencing/Annotation) of the set of RNA transcripts under specific circumstances or in specific cells.
 
 While this work primarily centers around rubber trees, the pipeline is adaptable for the analysis of RNA-seq data from any other source with similar objectives. 
 

@@ -7,13 +7,13 @@ Certain chromosomal anomalies such as trisomy 13 (Patau syndrome), 18 (Edwards s
 
 Testing datasets, drawn from the research by Stephanie C. Yu, comprised 21 cases of trisomy 13, 27 cases of trisomy 18, and 36 cases of trisomy 21 [1]. These datasets were subsequently employed to evaluate the performance of the developed pipeline. The results indicated accurate identification, with 21 out of 21 positive cases of trisomy 13 (figure 2A) and 36 out of 36 positive cases of trisomy 21 (figure 2C) correctly identified, along with all correctly classified negative cases. In the case of trisomy 18, there was only one data point below the dashed line, representing a false negative result, while 26 out of 27 cases of trisomy 18 were still successfully detected (figure 2B).
 
-<div align="center"> <img src='https://vanngocthuyla.github.io/Data_Analysis/images/sequencing/NIPT_T13.jpg' width="800"> </div>
+<div align="center"> <img src='https://vanngocthuyla.github.io/Data_Analysis/images/omics/NIPT_T13.jpg' width="800"> </div>
 <div align="center">A</div>
 
-<div align="center"> <img src='https://vanngocthuyla.github.io/Data_Analysis/images/sequencing/NIPT_T18.jpg' width="800"> </div>  
+<div align="center"> <img src='https://vanngocthuyla.github.io/Data_Analysis/images/omics/NIPT_T18.jpg' width="800"> </div>  
 <div align="center">B</div>
 
-<div align="center"> <img src='https://vanngocthuyla.github.io/Data_Analysis/images/sequencing/NIPT_T21.jpg' width="800"> </div>
+<div align="center"> <img src='https://vanngocthuyla.github.io/Data_Analysis/images/omics/NIPT_T21.jpg' width="800"> </div>
 <div align="center">C</div>
 <div align="center">Figure 2. Testing datasets for NIPT</div>
 

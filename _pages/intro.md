@@ -5,9 +5,9 @@ sitemap: false
 permalink: /
 ---
 
-I am a computational biologist who focuses on chemical biology. I develop and apply analytical approaches to integrate and interpret omics (WES/WGS, RNA-Seq), and high-throughput screen (pharmacological screen) data. These are helpful for delivering insights into biological diseases, provide outcome prediction to design experiments, and guide product development.
+I am a computational biologist who focuses on chemical biology. I develop and apply approaches to integrate and interpret omics (WES/WGS, RNA-Seq), and high-throughput screen (pharmacological screen) data. These are helpful for delivering insights into biological diseases, provide outcome prediction to design experiments, and guide product development.
 
-I can utilize statistical models, machine learning methods, and construct workflow for data analysis. Some of my achievements are described below.
+I can utilize statistical models, machine learning methods, and construct workflow for data analysis. Some of my achievements are described below:
 
 **Transcriptomic analysis**
 - Profiling the set of RNA transcripts under specific circumstances or in specific cells.

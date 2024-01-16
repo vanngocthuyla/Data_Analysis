@@ -1,1 +1,0 @@
-- [Comparison](https://vanngocthuyla.github.io/Data_Analysis/pages/bayesian/bitc-PPL-benchmark) of the three PPLs (numpyro, pyro and pymc3) for running the ITC (isothermal titration calorimetry) data 

@@ -2,32 +2,25 @@ theme: jekyll-theme-cayman
 url: "https://vanngocthuyla.github.io"
 markdown: kramdown
 
-#
-# This file contains configuration flags to customize your site
-#
-
 # Name of your site (displayed in the header)
 name: Van La
 
 # Short bio or description (displayed in the header)
-description: Bio Data Analyst
+description: Computational Biologist
 
 # URL of your avatar or profile pic (you could use your GitHub profile pic)
 avatar:
 
-#
-# Flags below are optional
-#
 
 # Includes an icon in the footer for each username you enter
 footer-links:
   dribbble:
-  email: langocthuyvan@gmail.com
+  email: vla@hawk.iit.edu
   facebook:
   flickr:
   github: vanngocthuyla
   instagram:
-  linkedin:
+  linkedin: thuy-van-la-ngoc
   pinterest:
   rss: # just type anything here for a working RSS icon
   twitter:
@@ -37,7 +30,6 @@ footer-links:
 
 
 # Enter your Disqus shortname (not your username) to enable commenting on posts
-# You can find your shortname on the Settings page of your Disqus account
 disqus: VL
 
 # Enter your Google Analytics web tracking code (e.g. UA-2110908-2) to activate tracking
@@ -45,17 +37,16 @@ google_analytics:
 
 # Your website URL (e.g. http://barryclark.github.io or http://www.barryclark.co)
 # Used for Sitemap.xml and your RSS feed
-url: "https://vanngocthuyla.github.io/Data_Analysis/"
+url: "https://vanngocthuyla.github.io/Data_Analysis"
 
 # If you're hosting your site at a Project repository on GitHub pages
 # (http://yourusername.github.io/repository-name)
 # and NOT your User repository (http://yourusername.github.io)
 # then add in the baseurl here, like this: "/repository-name"
-baseurl: "https://vanngocthuyla.github.io/Data_Analysis/pages"
+baseurl: ""
 
-#
-# !! You don't need to change any of the configuration flags below !!
-#
+include:
+  - _pages
 
 permalink: /:title/
 

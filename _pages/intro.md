@@ -1,6 +1,5 @@
 ---
 layout: page
-layout: homelay
 title: Intro
 permalink: /
 ---

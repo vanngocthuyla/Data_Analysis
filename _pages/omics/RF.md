@@ -56,6 +56,6 @@ Confusion matrix:
 
 ### Plot Results
 
-<img src='https://vanngocthuyla.github.io/Data_Analysis/images/sequencing/Random_Forest_Plot.jpg' width="800">
+<img src='https://vanngocthuyla.github.io/Data_Analysis/images/omics/Random_Forest_Plot.jpg' width="800">
 
-<img src='https://vanngocthuyla.github.io/Data_Analysis/images/sequencing/Feature_Important_Plot.jpg' width="800">
+<img src='https://vanngocthuyla.github.io/Data_Analysis/images/omics/Feature_Important_Plot.jpg' width="800">

@@ -6,4 +6,4 @@ We are also interested in analyzing datasets from various analytical techniques,
 
 - [Comparison](https://vanngocthuyla.github.io/Data_Analysis/pages/bayesian/bitc-PPL-benchmark) of the three PPLs (numpyro, pyro and pymc3) for running the ITC (isothermal titration calorimetry) data
 - Bayesian Regression and Model Selection for Isothermal Titration Calorimetry with Enantiomeric Mixtures [Ref](https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0273656)
-- Bayesian Regression Quantifies Uncertainty of Binding Parameters from Isothermal Titration Calorimetry More Accurately Than Error Propagation [Ref] (https://www.mdpi.com/1422-0067/24/20/15074).
+- Bayesian Regression Quantifies Uncertainty of Binding Parameters from Isothermal Titration Calorimetry More Accurately Than Error Propagation [Ref](https://www.mdpi.com/1422-0067/24/20/15074).

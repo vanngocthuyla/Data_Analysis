@@ -12,10 +12,7 @@ Whole transcriptome sequencing data or RNA-sequencing data serves as a valuable 
 
 <div align="center"> <img src='https://vanngocthuyla.github.io/Data_Analysis/images/omics/Pipeline.png' width="800"> </div>   
 
-The pipeline developed to identify DEGs from RNA-sequencing data can be found at the link below: 
-- [Profiling](https://iopscience.iop.org/article/10.1088/1755-1315/749/1/012033/pdf) and [Annotation](https://vanngocthuyla.github.io/Data_Analysis/_pages/omics/Annotation) of the set of RNA transcripts under specific circumstances or in specific cells.
-
-While this work primarily centers around rubber trees, the pipeline is adaptable for the analysis of RNA-seq data from any other source with similar objectives. 
+I developed a pipelie to identify DEGs from RNA-sequencing data [Ref](https://iopscience.iop.org/article/10.1088/1755-1315/749/1/012033/pdf). Further analysis, such as [Annotation](https://vanngocthuyla.github.io/Data_Analysis/_pages/omics/Annotation), can be used to collect the set of RNA transcripts under specific circumstances or in specific cells. While this work primarily centers around rubber trees, the pipeline is adaptable for the analysis of RNA-seq data from any other source with similar objectives. 
 
 After identifying DEGs, machine learning methods can be employed for further analysis, encompassing tasks such as cell subtype classification and feature selection. Various supervised algorithms ([LDA](https://vanngocthuyla.github.io/Data_Analysis/_pages/omics/LDA), [Naive Bayes](https://vanngocthuyla.github.io/Data_Analysis/_pages/omics/Naive_Bayes), [SVM](https://vanngocthuyla.github.io/Data_Analysis/_pages/omics/SVM), [swLDA](https://vanngocthuyla.github.io/Data_Analysis/_pages/omics/swLDA), [Random Forest](https://vanngocthuyla.github.io/Data_Analysis/_pages/omics/RF)) and unsupervised methods ([Hclust](https://vanngocthuyla.github.io/Data_Analysis/_pages/omics/hclust), [K-means](https://vanngocthuyla.github.io/Data_Analysis/_pages/omics/kmean), [PCA](https://vanngocthuyla.github.io/Data_Analysis/_pages/omics/PCA)) have been showcased. The outcomes can be also effectively visualized through [heatmap](https://vanngocthuyla.github.io/Data_Analysis/_pages/omics/Heatmap) and [PCA plot](https://vanngocthuyla.github.io/Data_Analysis/_pages/omics/PCA_Plot). 
 

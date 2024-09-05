@@ -10,7 +10,7 @@ permalink: /omics
 
 Whole transcriptome sequencing data or RNA-sequencing data serves as a valuable resource to elucidate the fundamental molecular mechanisms of biological conditions, offering a molecular foundation for addressing questions of interest. The analysis of treatment and control datasets allows the identification of differentially expressed genes (DEGs) in specific circumstances or cell subtypes. Comparing these DEGs with reported markers facilitates the diagnosis of genetic diseases. Additionally, quantifying DEGs reveals disease-induced expression patterns, offering insights into the disease stages.
 
-<div align="center"> <img src='https://vanngocthuyla.github.io/Data_Analysis/images/omics/Pipeline.png' width="600"> </div>   
+<div align="center"> <img src='https://vanngocthuyla.github.io/Data_Analysis/images/omics/Pipeline.png' width="1000"> </div>   
 
 The pipeline developed to identify DEGs from RNA-sequencing data can be found at the link below: 
 - [Profiling](https://iopscience.iop.org/article/10.1088/1755-1315/749/1/012033/pdf) and [Annotation](https://vanngocthuyla.github.io/Data_Analysis/_pages/omics/Annotation) of the set of RNA transcripts under specific circumstances or in specific cells.

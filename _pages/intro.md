@@ -12,6 +12,7 @@ I specialize in utilizing **statistical models** and **machine learning** techni
 # Expertise & Professional Experiences
 
 **Transcriptomic analysis**
+
 I analyze RNA-seq data to gain a deeper understanding of gene expression dynamics. My transcriptomic work includes:
 
 - Profiling RNA transcripts under specific biological conditions or in particular cell types.

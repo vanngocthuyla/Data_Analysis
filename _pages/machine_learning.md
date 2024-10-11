@@ -8,7 +8,9 @@ In my work with transcriptomics, I developed and executed RNA-Seq pipelines, foc
 
 Once the data tables were prepared, I utilized machine learning algorithms to classify these subtypes automatically, identifying the most informative genes for distinguishing between the known classes. I also employed unsupervised techniques to explore potential inherent groups within the data.
 
-## Classification and Feature Selection
+## 1. Classification and Feature Selection
+
+### 1.1. Classification
 
 Breast cancer was reported to be able divided into distinct subtypes. In this work, I worked on 38 datasets from 5 cell lines (luminal, basal, claudin-low, and normal-like cases). We want to identify the most informative features (genes) in these subtypes using supervised machine learning methods, specifically classification algorithms. In this case, I applied Linear Discriminant Analysis (LDA). LDA works similarly to Principal Component Analysis (PCA) but takes subtype information into account when determining the components. Like other classification methods, LDA uses a training set where the subtypes are already known. From this training set, LDA constructs a classifier that can then assign new samples to one of the known subtypes.
 
@@ -38,6 +40,8 @@ For the test set, I used a similar table that did not include class labels, allo
 |...|...|...|...|...|...|...|...|...|...|...|...|...|...|...|
 
 The effectiveness of the LDA classifier constructed for the training set could be assessed by examining the results presented in LDA_plot. For example, the first two axes achieve a separation of type N (Normal-like) and type CL (Claudin-low).
+
+**LDA plot**
 
 <img src='https://vanngocthuyla.github.io/Data_Analysis/images/omics/LDA_plot.jpg' width="800">
 
@@ -71,4 +75,66 @@ Another results provided by LDA is the confusion matrix, which presents the pred
 |Type_L|1|0|19|0|
 |Type_N|1|0|0|2|
 
-In addition to LDA, various classification methods, including [swLDA](https://vanngocthuyla.github.io/Data_Analysis/_pages/omics/swLDA), [Support Vector Machine (SVM)](https://vanngocthuyla.github.io/Data_Analysis/_pages/omics/SVM), [Random Forest](https://vanngocthuyla.github.io/Data_Analysis/_pages/omics/RF), and [Naive Bayes](https://vanngocthuyla.github.io/Data_Analysis/_pages/omics/Naive_Bayes) were introduced. Each of these methods employs different mathematical approaches to tackle the same classification task, providing multiple options for the best fit for specific data and analysis purposes.
+In addition to LDA, various classification methods, including [Support Vector Machine (SVM)](https://vanngocthuyla.github.io/Data_Analysis/_pages/omics/SVM), [Random Forest](https://vanngocthuyla.github.io/Data_Analysis/_pages/omics/RF), and [Naive Bayes](https://vanngocthuyla.github.io/Data_Analysis/_pages/omics/Naive_Bayes) were introduced. Each of these methods employs different mathematical approaches to tackle the same classification task, providing multiple options for the best fit for specific data and analysis purposes.
+
+### 1.2. Feature Selection
+
+One effective method for this is stepwise feature selection. Similar to LDA, this approach begins by testing individual features and selecting the one that provides the best classification quality for the training set. The process then evaluates pairs of features, where the first feature is the previously selected one, and identifies the pair that yields the highest classification accuracy. This method continues with triples, quadruples, and so forth. Although this greedy strategy may not be optimal, it delivers results within a reasonable timeframe.
+
+To implement this, I utilized the swLDA (step-wise LDA) algorithm, using the same training and testing datasets. Unlike LDA, swLDA requires an additional parameter called Niveau, which determines the stopping criterion. This parameter should be adjusted based on the size of the transcriptome; in this case, with nearly 7,000 genes, I set it to 0.0005.
+
+**Prediction result**
+
+|Sample|Class|
+|:----:|:---:|
+|T01|Type_N|
+|T02|Type_B|
+|T03|Type_B|
+|T04|Type_B|
+|T05|Type_B|
+|T06|Type_CL|
+|T07|Type_CL|
+|T08|Type_L|
+|T09|Type_L|
+|T10|Type_L|
+|T11|Type_L|
+|T12|Type_L|
+|T13|Type_L|
+|T14|Type_L|
+
+**Confusion matrix**
+
+|True predicted|Type_B|Type_CL|Type_L|Type_N|
+|:------------:|:----:|:-----:|:----:|:----:|
+|Type_B|11|0|0|0|
+|Type_CL|0|4|0|0|
+|Type_L|0|0|20|0|
+|Type_N|0|0|0|3|
+
+**swLDA plot**
+
+<img src='https://vanngocthuyla.github.io/Data_Analysis/images/omics/swLDA_plot.jpg' width="800">
+
+Compared to LDA, swLDA achieved a higher accuracy in subtype classification, with a prediction rate of 100%. The feature mean and coefficient tables below revealed that 7 genes were selected, which enabled perfect classification of the training set.
+
+
+**swLDA_Features_means**
+
+|Class|Mean.ENSG00000116299|Mean.ENSG00000166145|Mean.ENSG00000243509|Mean.ENSG00000119888|Mean.ENSG00000168918|Mean.ENSG00000261040|Mean.ENSG00000049283|
+|:---:|:------------------:|:------------------:|:------------------:|:------------------:|:------------------:|:------------------:|:------------------:|
+|Type_B|1.06545454545455|7.21|0.394545454545455|6.94090909090909|0.143636363636364|1.97909090909091|4.68727272727273|
+|Type_CL|0.65|0.775|1.36|0.745|0.205|3.855|0.1925|
+|Type_L|6.489|7.6215|0.436|6.9545|1.0955|0.451|6.4195|
+|Type_N|0.51|6.6|5.79333333333333|3.88333333333333|3.42333333333333|4.21333333333333|1.11|
+
+**swLDA_Features_coeffs**
+|scaling.LD1|scaling.LD2|scaling.LD3| |
+|:---------:|:---------:|:---------:|:---------:|
+|ENSG00000116299|0.761082179330159|-1.10926474400401|0.500452033399354|
+|ENSG00000166145|1.04261131564328|1.01300646262874|0.0527673697586225|
+|ENSG00000243509|0.0440286580504465|0.436103939833443|1.58889405335683|
+|ENSG00000119888|0.950755280416352|1.25267057366866|-0.256855086103996|
+|ENSG00000168918|0.425979306477355|0.565426970987082|0.95357000513638|
+|ENSG00000261040|-0.232960568966649|0.310222368504156|-0.818841643861012|
+|ENSG00000049283|0.503948130636801|-0.552477742195569|-0.432827793777006|
+

@@ -152,3 +152,7 @@ The resulting table is straightforward, with each sample assigned to a cluster.
 |S52|3|
 
 It is advisable to repeat multiple runs to assess the accuracy that this method can provide on a particular dataset. If the results vary significantly across runs, it should be combined with prior knowledge or other methods to validate the findings.
+
+## Acknowledgement
+
+These projects were supported by Louisiana Biomedical Research Network and Pine Biotech under LBRN Summer Bioinformatics Workshop in 2018.

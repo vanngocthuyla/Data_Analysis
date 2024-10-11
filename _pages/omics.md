@@ -33,7 +33,7 @@ Genomic analysis plays a crucial role in understanding genetic variations and th
 
    I developed a pipeline for CNV detection using WES data. CNVs, which involve the duplication or deletion of sections of the genome, are linked to various genetic disorders and early-onset diseases. The pipeline I created provides an effective means of identifying these variants, offering clinicians insights into potential genetic risks.
 
-2. Chromosomal Anomaly Identification using Whole Genome Sequencing (WGS)
+2. [Chromosomal Anomaly Identification using Whole Genome Sequencing (WGS)](https://vanngocthuyla.github.io/Data_Analysis/_pages/omics/NIPT)
 
    I worked on identifying chromosomal anomalies, such as trisomies, using WGS data. This project focused on the detection of conditions like Down syndrome (trisomy 21), Edwards syndrome (trisomy 18), and Patau syndrome (trisomy 13). The WGS-based pipeline allows for early, non-invasive diagnosis of these anomalies, providing crucial information for prenatal care.
 

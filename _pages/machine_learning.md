@@ -138,3 +138,6 @@ Compared to LDA, swLDA achieved a higher accuracy in subtype classification, wit
 |ENSG00000261040|-0.232960568966649|0.310222368504156|-0.818841643861012|
 |ENSG00000049283|0.503948130636801|-0.552477742195569|-0.432827793777006|
 
+## Acknowledgement
+
+These projects were supported by Louisiana Biomedical Research Network and Pine Biotech under LBRN Summer Bioinformatics Workshop in 2018.

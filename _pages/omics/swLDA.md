@@ -112,15 +112,15 @@ Example testing dataset:
 
 ### Predict_stat
 
-Overall accuracy for the training set: 0.8684211
+Overall accuracy for the training set: 1.0
 Confusion matrix:
 
 |True predicted|Type_B|Type_CL|Type_L|Type_N|
 |:------------:|:----:|:-----:|:----:|:----:|
 |Type_B|11|0|0|0|
 |Type_CL|0|4|0|0|
-|Type_L|1|0|20|0|
-|Type_N|1|0|0|3|
+|Type_L|0|0|20|0|
+|Type_N|0|0|0|3|
 
 ### swLDA plot
 <img src='https://vanngocthuyla.github.io/Data_Analysis/images/omics/swLDA_plot.jpg' width="800">

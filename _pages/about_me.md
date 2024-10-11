@@ -7,7 +7,7 @@ permalink: /about_me
 
 ## Get in Touch
 
-I'm doing research at [David Minh lab](https://ccbatiit.github.io/), Illinois Institute of Technology, Chicago, IL. For collaborations or inquiries, feel free to reach out. I'm always excited to discuss how computational biology can advance research and product development in healthcare and pharmaceuticals.
+I am currently conducting research at [David Minh lab](https://ccbatiit.github.io/), Illinois Institute of Technology, Chicago, IL. As I approach my graduation in December 2024, I am actively seeking positions as a computational biologist or in bioinformatics. I welcome inquiries and collaborations, and I am eager to engage in discussions about how computational biology can enhance research and product development in healthcare and pharmaceuticals.
 
 ### More Information
 

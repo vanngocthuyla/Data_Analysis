@@ -18,32 +18,30 @@
   <body>
     <div class="wrapper-masthead">
       <div class="container">
-        <header class="masthead clearfix" style="display: flex; justify-content: space-between; align-items: center; flex-direction: column;">
-          <div class="site-header">
-            <!-- Image on the left -->
-            <div style="float:left;">
-              <a href="{{ site.url }}/">
-                <img src="{{ site.url }}/images/assets/profile.jpeg" alt="Your Picture" style="height: 120px; width: auto; border-radius: 50%;">
-              </a>
-            </div>
-
-            <!-- Site name and description in the middle -->
-            <div class="site-info" style="text-align: center; margin: 0 auto;">
-              <h1 class="site-name"><a href="{{ site.url }}/">{{ site.name }}</a></h1>
-              <p class="site-description">{{ site.description }}</p>
-            </div>
+        <header class="masthead clearfix" style="display: flex; align-items: center; justify-content: center;">
+          <!-- Image on the left -->
+          <div style="margin-right: 20px;">
+            <a href="{{ site.url }}/">
+              <img src="{{ site.url }}/images/assets/profile.jpeg" alt="Your Picture" style="height: 120px; width: auto; border-radius: 50%;">
+            </a>
           </div>
 
-          <!-- Navigation goes to the next line -->
-          <nav style="margin-top: 20px; text-align: center; display: flex; justify-content: center;">
-            <a href="{{ site.url }}/omics" style="margin-right: 20px;">Omics Analysis</a>
-            <a href="{{ site.url }}/modeling" style="margin-right: 20px;">Statistical Modeling</a>
-            <a href="{{ site.url }}/machine_learning" style="margin-right: 20px;">Machine Learning</a>
-            <a href="{{ site.url }}/contact">Contact</a>
-          </nav>
+          <!-- Site name and description in the middle -->
+          <div class="site-info" style="text-align: center;">
+            <h1 class="site-name"><a href="{{ site.url }}/">{{ site.name }}</a></h1>
+            <p class="site-description">{{ site.description }}</p>
+          </div>
         </header>
       </div>
     </div>
+
+    <!-- Navigation goes to the next line -->
+    <nav style="text-align: center; margin-top: 20px;">
+      <a href="{{ site.url }}/omics" style="margin-right: 20px;">Omics Analysis</a>
+      <a href="{{ site.url }}/modeling" style="margin-right: 20px;">Statistical Modeling</a>
+      <a href="{{ site.url }}/machine_learning" style="margin-right: 20px;">Machine Learning</a>
+      <a href="{{ site.url }}/contact">Contact</a>
+    </nav>
 
     <div id="main" role="main" class="container">
       {{ content }}

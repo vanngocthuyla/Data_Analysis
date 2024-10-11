@@ -17,6 +17,6 @@ As an example of applying machine learning in biomedical studies, I utilized gen
 
 In summary, the combination of machine learning methods with **omics data** is revolutionizing biomedical research, providing powerful tools to classify diseases, identify important biological features, and ultimately improve patient outcomes.
 
-Learn more about supervised machine learning methods and how they are applied in biomedical research to classify diseases and predict outcomes [here](https://vanngocthuyla.github.io/Data_Analysis/_pages/omics/supervised)
+Learn more about supervised machine learning methods and how they are applied in biomedical research to classify diseases and predict outcomes [here].(https://vanngocthuyla.github.io/Data_Analysis/_pages/omics/supervised)
 
-Explore unsupervised machine learning techniques used to discover hidden patterns in biological data and identify new disease subtypes [here](https://vanngocthuyla.github.io/Data_Analysis/_pages/omics/unsupervised)
+Explore unsupervised machine learning techniques used to discover hidden patterns in biological data and identify new disease subtypes [here](https://vanngocthuyla.github.io/Data_Analysis/_pages/omics/unsupervised).

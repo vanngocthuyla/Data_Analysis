@@ -40,7 +40,3 @@ I utilize Bayesian modeling techniques to improve predictive accuracy and uncert
 
 - Comparing Bayesian frameworks such as NumPyro, Pyro, and PyMC3 for analyzing ITC data.
 - Using Bayesian regression and model selection to study binding affinities in enantiomeric mixtures through ITC.
-
-# Get in Touch
-
-For collaborations or inquiries, feel free to reach out. I'm always excited to discuss how computational biology can advance research and product development in healthcare and pharmaceuticals.

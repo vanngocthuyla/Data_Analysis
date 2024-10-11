@@ -1,10 +1,10 @@
 Supervised machine learning algorithms can be utilized to classify the cancer subtypes automatically, identifying the most informative genes for distinguishing between the known classes. 
 
-## 1. Classification and Feature Selection
-
-### 1.1. Classification
+## 1. Classification
 
 Breast cancer was reported to be able divided into distinct subtypes. In this work, I worked on 38 datasets from 5 cell lines (luminal, basal, claudin-low, and normal-like cases). We want to identify the most informative features (genes) in these subtypes using supervised machine learning methods, specifically classification algorithms. In this case, I applied Linear Discriminant Analysis (LDA). LDA works similarly to Principal Component Analysis (PCA) but takes subtype information into account when determining the components. Like other classification methods, LDA uses a training set where the subtypes are already known. From this training set, LDA constructs a classifier that can then assign new samples to one of the known subtypes.
+
+### 1.1. Input
 
 The gene expression data and subtype information are combined into a single table to serve as the training set. Each sample (or cell line) is represented by a column and is labeled with its respective subtype. For this analysis, the subtypes were encoded as follows: 
 
@@ -30,6 +30,8 @@ For the test set, I used a similar table that did not include class labels, allo
 |ENSG00000001084|4.47|6|5.77|5.76|5.76|4.64|4.07|4.52|4.16|3.24|4.35|2.49|5.89|4.37|
 |ENSG00000001497|5.27|4.27|6.58|5.54|5.57|6.4|4.91|4.79|4.95|5.83|4.89|5.33|4.23|6.03|
 |...|...|...|...|...|...|...|...|...|...|...|...|...|...|...|
+
+### 1.2. Result
 
 The effectiveness of the LDA classifier constructed for the training set could be assessed by examining the results presented in LDA_plot. For example, the first two axes achieve a separation of type N (Normal-like) and type CL (Claudin-low).
 
@@ -69,11 +71,17 @@ Another results provided by LDA is the confusion matrix, which presents the pred
 
 In addition to LDA, various classification methods, including [Support Vector Machine (SVM)](https://vanngocthuyla.github.io/Data_Analysis/_pages/omics/SVM), [Random Forest](https://vanngocthuyla.github.io/Data_Analysis/_pages/omics/RF), and [Naive Bayes](https://vanngocthuyla.github.io/Data_Analysis/_pages/omics/Naive_Bayes) were introduced. Each of these methods employs different mathematical approaches to tackle the same classification task, providing multiple options for the best fit for specific data and analysis purposes.
 
-### 1.2. Feature Selection
+### 2. Feature Selection
 
 One effective method for this is stepwise feature selection. Similar to LDA, this approach begins by testing individual features and selecting the one that provides the best classification quality for the training set. The process then evaluates pairs of features, where the first feature is the previously selected one, and identifies the pair that yields the highest classification accuracy. This method continues with triples, quadruples, and so forth. Although this greedy strategy may not be optimal, it delivers results within a reasonable timeframe.
 
-To implement this, I utilized the swLDA (step-wise LDA) algorithm, using the same training and testing datasets. Unlike LDA, swLDA requires an additional parameter called Niveau, which determines the stopping criterion. This parameter should be adjusted based on the size of the transcriptome; in this case, with nearly 7,000 genes, I set it to 0.0005.
+### 2.1. Input
+
+To implement this, I utilized the swLDA (step-wise LDA) algorithm, using the same training and testing datasets. 
+
+### 2.2. Result
+
+Unlike LDA, swLDA requires an additional parameter called Niveau, which determines the stopping criterion. This parameter should be adjusted based on the size of the transcriptome; in this case, with nearly 7,000 genes, I set it to 0.0005.
 
 **Prediction result**
 

@@ -1,8 +1,8 @@
 ---
 layout: page
-title: About Me
+title: About
 sitemap: false
-permalink: /about_me
+permalink: /about
 ---
 
 ## Get in Touch

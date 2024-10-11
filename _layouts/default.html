@@ -13,34 +13,61 @@
     <link rel="alternate" type="application/rss+xml" title="{{ site.name }} - {{ site.description }}" href="{{ site.url }}/feed.xml" />
 
     <!-- Created with Jekyll Now - http://github.com/barryclark/jekyll-now -->
+    <style>
+      .info-box {
+        /* border: 1px solid #ccc; /* Add border for the box */
+        padding: 10px; /* Space inside the box */
+        border-radius: 8px; /* Rounded corners */
+        display: flex; /* Flex layout for image and text */
+        align-items: center; /* Center items vertically */
+        margin-bottom: -20px; /* Pulls the box up by 20 pixels */
+      }
+      .info-box img {
+        height: 120px; /* Image height */
+        width: auto; /* Auto width to maintain aspect ratio */
+        border-radius: 50%; /* Circular image */
+        margin-right: 20px; /* Space between image and text */
+      }
+      .site-info {
+        text-align: center; /* Align text */
+        margin: 0 auto;
+      }
+      .site-name {
+        font-size: 36px; /* Adjusted font size for the site name */
+      }
+      .site-description {
+        font-size: 20px; /* Adjusted font size for the description */
+      }
+    </style>
   </head>
 
   <body>
     <div class="wrapper-masthead">
       <div class="container">
-        <header class="masthead clearfix" style="display: flex; justify-content: space-between; align-items: center; flex-direction: column;">
+        <header class="masthead clearfix" style="display: flex; justify-content: center; flex-direction: column;">
           <div class="site-header">
-            <!-- Image on the left -->
-            <div style="float:left;">
-              <a href="{{ site.url }}/">
-                <img src="{{ site.url }}/images/assets/profile.jpeg" alt="My Picture" style="height: 120px; width: auto; border-radius: 50%;">
-              </a>
-            </div>
-
-            <!-- Site name and description in the middle -->
-            <div class="site-info" style="text-align: center; margin: 0 auto;">
-              <h1 class="site-name"><a href="{{ site.url }}/">{{ site.name }}</a></h1>
-              <p class="site-description">{{ site.description }}</p>
+            <!-- Box for the image, site name, and description -->
+            <div class="info-box">
+              <!-- Image on the left -->
+              <div style="float:left;">
+                <img src="{{ site.url }}/images/assets/profile.jpeg" alt="My Picture">
+              </div>
+              
+              <!-- Site name and description on the right -->
+              <div class="site-info">
+                <h1 class="site-name"><a href="{{ site.url }}/">{{ site.name }}</a></h1>
+                <p class="site-description">{{ site.description }}</p>
+              </div>
             </div>
           </div>
 
-          <!-- Navigation goes to the next line -->
+          <!-- Navigation outside the info box -->
           <nav style="margin-top: 20px; text-align: center; display: flex; justify-content: center;">
-            <a href="{{ site.url }}/home" style="margin-right: 20px;">Home</a>
+            <a href="{{ site.url }}" style="margin-right: 20px;">Home</a>
             <a href="{{ site.url }}/omics" style="margin-right: 20px;">Omics Analysis</a>
             <a href="{{ site.url }}/modeling" style="margin-right: 20px;">Statistical Modeling</a>
             <a href="{{ site.url }}/machine_learning" style="margin-right: 20px;">Machine Learning</a>
-            <a href="{{ site.url }}/about_me">About Me</a>
+            <a href="{{ site.url }}/about">About Me</a>
           </nav>
         </header>
       </div>
@@ -49,14 +76,6 @@
     <div id="main" role="main" class="container">
       {{ content }}
     </div>
-
-<!--     <div class="wrapper-footer">
-      <div class="container">
-        <footer class="footer">
-          {% include svg-icons.html %}
-        </footer>
-      </div>
-    </div> -->
 
     {% include analytics.html %}
   </body>

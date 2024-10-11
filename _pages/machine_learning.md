@@ -128,6 +128,7 @@ Compared to LDA, swLDA achieved a higher accuracy in subtype classification, wit
 |Type_N|0.51|6.6|5.79333333333333|3.88333333333333|3.42333333333333|4.21333333333333|1.11|
 
 **swLDA_Features_coeffs**
+
 |scaling.LD1|scaling.LD2|scaling.LD3| |
 |:---------:|:---------:|:---------:|:---------:|
 |ENSG00000116299|0.761082179330159|-1.10926474400401|0.500452033399354|

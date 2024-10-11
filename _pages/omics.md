@@ -39,6 +39,6 @@ Genomic analysis plays a crucial role in understanding genetic variations and th
 
    I worked on identifying chromosomal anomalies, such as trisomies, using WGS data. This project focused on the detection of conditions like Down syndrome (trisomy 21), Edwards syndrome (trisomy 18), and Patau syndrome (trisomy 13). The WGS-based pipeline allows for early, non-invasive diagnosis of these anomalies, providing crucial information for prenatal care.
 
-## Summary
+# Summary
 
 These projects highlight the power of sequencing technologies in identifying genetic mutations, enabling early diagnosis and guiding personalized treatment plans. By combining transcriptomic profiling, machine learning, and genomic analysis, I have contributed to the development of tools that enhance both research and clinical decision-making.

@@ -71,4 +71,4 @@ Another results provided by LDA is the confusion matrix, which presents the pred
 |Type_L|1|0|19|0|
 |Type_N|1|0|0|2|
 
-In addition to LDA, various classification methods, including Support Vector Machine (SVM), Random Forest, and Naïve Bayes were introduced. Each of these methods employs different mathematical approaches to tackle the same classification task, providing multiple options for the best fit for specific data and analysis purposes.
+In addition to LDA, various classification methods, including [swLDA](https://vanngocthuyla.github.io/Data_Analysis/_pages/omics/swLDA), [Support Vector Machine (SVM)](https://vanngocthuyla.github.io/Data_Analysis/_pages/omics/SVM), [Random Forest](https://vanngocthuyla.github.io/Data_Analysis/_pages/omics/RF), and [Naive Bayes](https://vanngocthuyla.github.io/Data_Analysis/_pages/omics/Naive_Bayes) were introduced. Each of these methods employs different mathematical approaches to tackle the same classification task, providing multiple options for the best fit for specific data and analysis purposes.

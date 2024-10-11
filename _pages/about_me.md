@@ -1,8 +1,8 @@
 ---
 layout: page
-title: Contact
+title: About Me
 sitemap: false
-permalink: /contact
+permalink: /about_me
 ---
 
 ### More Information
@@ -11,4 +11,4 @@ permalink: /contact
 
 ### Contact me
 
-[vla@hawk.iit.edu](mailto:vla@hawk.iit.edu)
+[langocthuyvan@outlook.com](mailto:langocthuyvan@outlook.com)

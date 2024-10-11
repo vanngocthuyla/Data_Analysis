@@ -1,8 +1,8 @@
 ---
 layout: page
-title: Intro
+title: Home
 sitemap: false
-permalink: /
+permalink: /home
 ---
 
 I am a **computational biologist** with a strong focus on **molecular biology** and **chemical biology**. My work centers on developing and applying innovative approaches to integrate and interpret **omics data** (WES/WGS, RNA-seq) and **high-throughput screening data** (pharmacological screens). By leveraging these methods, I help deliver key insights into the molecular mechanisms of diseases, provide predictions to optimize experimental designs, and guide product development in drug discovery.

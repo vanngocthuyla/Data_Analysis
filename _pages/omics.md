@@ -25,7 +25,7 @@ After identifying DEGs, the next step is to further analyze the results using ma
 
 In another project, I applied machine learning methods to classify human cell lines related to disease. Supervised learning techniques such as Linear Discriminant Analysis (LDA), Naive Bayes, Support Vector Machines (SVM), and Random Forest were employed to classify and predict disease-related patterns from DEGs. Unsupervised methods like hierarchical clustering (Hclust), K-means, and Principal Component Analysis (PCA) were also used to explore inherent structures in the data. The application of these machine learning algorithms led to the identification of significant features and potential biomarkers, enhancing our understanding of disease mechanisms.
 
-Examples illustrating the application of machine learning methods in biomedical studies can be found [**here**](https://vanngocthuyla.github.io/Data_Analysis/_pages/machine_learning).
+Examples illustrating the application of machine learning methods in biomedical studies can be found [**here**](https://vanngocthuyla.github.io/Data_Analysis/machine_learning).
 
 These methods, in combination with DEG identification, provide valuable insights into disease processes and potential therapeutic targets. 
 

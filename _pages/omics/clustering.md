@@ -27,7 +27,7 @@ The resulting dendrogram revealed that similar samples were grouped together. Fo
 
 If the number of clusters is set to five, the algorithm will return the assigned cluster for each sample.
 
-|Samples|ClusterID|
+|Sample|Cluster ID|
 |:----:|:-------:|
 |S01|1|
 |S02|1|
@@ -81,3 +81,74 @@ If the number of clusters is set to five, the algorithm will return the assigned
 |S50|2|
 |S51|2|
 |S52|2|
+
+## 2. K-means Clustering
+
+Another commonly used clustering method is k-means. In k-means, the number of clusters, "K," is set as an input parameter at the beginning, and "K" initial centroids are randomly selected within the sample space. Each sample is then assigned to the cluster associated with the nearest centroid. After the initial assignments, the algorithm updates each cluster's centroid to reflect the actual mean of the samples it contains, and the process iterates with these new centroids. This cycle continues until convergence is reached or a predefined stopping condition is met, such as the maximum number of iterations.
+
+It is important to note that due to random initialization, running k-means multiple times with the same parameters on the same data can yield different results, especially if the true clustering structure is not clear.
+
+### 2.1. Input
+
+We continue to work with the same input data of 52 samples as described in 1.1.
+
+### 2.2. Result
+
+The resulting table is straightforward, with each sample assigned to a cluster.
+
+|Sample|Cluster ID|
+|:----:|:-------:|
+|S01|1|
+|S02|1|
+|S03|1|
+|S04|1|
+|S05|1|
+|S06|3|
+|S07|2|
+|S08|3|
+|S09|3|
+|S10|4|
+|S11|3|
+|S12|2|
+|S13|2|
+|S14|2|
+|S15|1|
+|S16|4|
+|S17|3|
+|S18|3|
+|S19|1|
+|S20|1|
+|S21|1|
+|S22|1|
+|S23|3|
+|S24|1|
+|S25|4|
+|S26|1|
+|S27|4|
+|S28|1|
+|S29|2|
+|S30|1|
+|S31|1|
+|S32|1|
+|S33|3|
+|S34|3|
+|S35|3|
+|S36|4|
+|S37|3|
+|S38|2|
+|S39|1|
+|S40|2|
+|S41|4|
+|S42|1|
+|S43|2|
+|S44|1|
+|S45|2|
+|S46|2|
+|S47|2|
+|S48|2|
+|S49|2|
+|S50|2|
+|S51|3|
+|S52|3|
+
+It is advisable to repeat multiple runs to assess the accuracy that this method can provide on a particular dataset. If the results vary significantly across runs, it should be combined with prior knowledge or other methods to validate the findings.

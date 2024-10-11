@@ -5,24 +5,41 @@ sitemap: false
 permalink: /
 ---
 
-I am a computational biologist who focuses on molecular biology and chemical biology. I develop and apply approaches to integrate and interpret omics (WES/WGS, RNA-Seq), and high-throughput screen (pharmacological screen) data. These are helpful for delivering insights into biological diseases, provide outcome prediction to design experiments, and guide product development.
+I am a **computational biologist** with a strong focus on **molecular biology** and **chemical biology**. My work centers on developing and applying innovative approaches to integrate and interpret **omics data** (WES/WGS, RNA-seq) and **high-throughput screening data** (pharmacological screens). By leveraging these methods, I help deliver key insights into the molecular mechanisms of diseases, provide predictions to optimize experimental designs, and guide product development in drug discovery.
 
-I can utilize statistical models, machine learning methods, and construct workflow for data analysis. Some of my achievements are described below:
+I specialize in utilizing **statistical models** and **machine learning** techniques to analyze complex datasets, constructing workflows that streamline data processing and interpretation. My expertise spans transcriptomics, genomics, and drug design, with a particular focus on Bayesian modeling to quantify uncertainty in biological systems.
+
+# Expertise & Professional Experiences
 
 **Transcriptomic analysis**
-- Profiling the set of RNA transcripts under specific circumstances or in specific cells
-- Homology-based annotation for the list of DEGs (Differentially Expressed Genes) in interest
-- Identification important markers for cell subtypes
-- Quantification to understand transcriptional regulation
+I analyze RNA-seq data to gain a deeper understanding of gene expression dynamics. My transcriptomic work includes:
+
+- Profiling RNA transcripts under specific biological conditions or in particular cell types.
+- Performing homology-based annotation to uncover the functions of differentially expressed genes (DEGs).
+- Identifying crucial markers for distinguishing cell subtypes.
+- Quantifying gene expression to reveal insights into transcriptional regulation.
 
 **Genomic analysis**
-- Identification of Abnormality by in human whole-genome sequencing (WGS) data
-- Pre-diagnosis of breast cancer by copy number variant (CNV) detection using human whole exome sequencing (WES) data
 
-**Exploring binding processes and improving the data analysis for drug design**
-- Inclusion of Control Data in Fits to Concentration-Response Curves Improves Estimates of Half-Maximal Concentrations
-- Bayesian Regression Quantifies Uncertainty of Binding Parameters from Isothermal Titration Calorimetry More Accurately Than Error Propagation
+I work on identifying genomic variations and abnormalities that drive diseases, particularly using whole-genome sequencing (WGS) and whole-exome sequencing (WES) data. Some of my key projects include:
 
-**Bayesian modeling**
-- Comparison of the three PPLs (numpyro, pyro and pymc3) for running the ITC (isothermal titration calorimetry) data
-- Bayesian Regression and Model Selection for Isothermal Titration Calorimetry with Enantiomeric Mixtures
+- Detecting chromosomal anomalies in human WGS data for early diagnosis of genetic disorders.
+- Pre-diagnosing breast cancer through copy number variant (CNV) detection using WES data.
+
+**Drug Design & Pharmacological Insights**
+
+My work in drug design focuses on improving data analysis methods for pharmacological screening. Key achievements include:
+
+- Enhancing concentration-response curve fitting by incorporating control data, leading to more accurate estimates of half-maximal concentrations.
+- Applying Bayesian regression to quantify uncertainty in binding parameters from isothermal titration calorimetry (ITC) data, providing a more reliable analysis than traditional error propagation methods.
+
+**Bayesian Modeling**
+
+I utilize Bayesian modeling techniques to improve predictive accuracy and uncertainty quantification. This includes:
+
+- Comparing Bayesian frameworks such as NumPyro, Pyro, and PyMC3 for analyzing ITC data.
+- Using Bayesian regression and model selection to study binding affinities in enantiomeric mixtures through ITC.
+
+# Get in Touch
+
+For collaborations or inquiries, feel free to reach out. I'm always excited to discuss how computational biology can advance research and product development in healthcare and pharmaceuticals.

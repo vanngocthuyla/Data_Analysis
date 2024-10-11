@@ -15,6 +15,4 @@ I'm doing research at [David Minh lab](https://ccbatiit.github.io/), Illinois In
 
 ### Contact me
 
-[vla@hawk.iit.edu](mailto:vla@hawk.iit.edu)
-
-[langocthuyvan@outlook.com](mailto:langocthuyvan@outlook.com)
+[School mail](mailto:vla@hawk.iit.edu) or [Outlook mail](mailto:langocthuyvan@outlook.com)

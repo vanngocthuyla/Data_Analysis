@@ -7,6 +7,8 @@ permalink: /omics
 
 Sequencing technologies are essential tools in biomedical research, enabling the exploration of genetic and molecular mechanisms underlying diseases. By decoding DNA and RNA sequences, researchers can identify mutations, genetic variations, and gene expression patterns, which contribute to better understanding, diagnosis, and treatment of various diseases. From whole-genome sequencing (WGS) to RNA-sequencing (RNA-seq), these technologies help reveal the genetic basis of disorders, allowing for targeted therapies and personalized medicine.
 
+# Transcriptomic Analysis
+
 ## Transcriptomic Profiling, Functional Annotation, and Differentially Expressed Genes (DEGs)
 
 Whole transcriptome sequencing (RNA-seq) provides critical insights into the molecular mechanisms that govern biological processes, making it an essential tool for biomedical research. By comparing treatment and control datasets, researchers can identify differentially expressed genes (DEGs), which helps to highlight how specific conditions or treatments influence gene expression in different cell types. This data can aid in diagnosing genetic diseases by comparing DEGs with known genetic markers, and can also help determine disease progression by quantifying expression changes linked to specific disease stages.
@@ -25,7 +27,7 @@ In another project, I applied machine learning methods to classify human cell li
 
 These methods, in combination with DEG identification, provide valuable insights into disease processes and potential therapeutic targets. 
 
-## Genomic Analysis
+# Genomic Analysis
 
 Genomic analysis plays a crucial role in understanding genetic variations and their impact on disease. I worked on two distinct projects related to genomic data:
 

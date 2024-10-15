@@ -3,38 +3,22 @@ layout: page
 title: ""
 ---
 
-I am a **computational biologist** with a strong focus on **molecular biology** and **chemical biology**. My work centers on developing and applying innovative approaches to integrate and interpret **omics data** (WES/WGS, RNA-seq) and **high-throughput screening data** (pharmacological screens). By leveraging these methods, I help deliver key insights into the molecular mechanisms of diseases, provide predictions to optimize experimental designs, and guide product development in drug discovery.
+## About Me
 
-I specialize in utilizing **statistical models** and **machine learning** techniques to analyze complex datasets, constructing workflows that streamline data processing and interpretation. My expertise spans transcriptomics, genomics, and drug design, with a particular focus on Bayesian modeling to quantify uncertainty in biological systems.
+Welcome to my website! I am a computational biologist with a strong focus on molecular biology and chemical biology. I specialize in utilizing statistical models and machine learning, constructing analysis pipelines and workflows, and integrating complex data to bridge scientific knowledge gaps, drive research, and support practical applications. I invite you to explore the details on the [Research](https://vanngocthuyla.github.io/research) page.
 
-# Expertise & Professional Experiences
+I am currently conducting research at David Minh lab, Illinois Institute of Technology, Chicago, IL.  I welcome inquiries and collaborations, and I am eager to engage in discussions about how computational biology can enhance research and product development for human health.
 
-**Transcriptomic analysis**
+## Education
 
-I analyze RNA-seq data to gain a deeper understanding of gene expression dynamics. My transcriptomic work includes:
+**Ph.D. in Biology** from Illinois Institute of Technology, Chicago, Illinois, under advisory of [Dr. David Minh](https://www.iit.edu/directory/people/david-minh) and [Dr. Lulu Kang](https://www.umass.edu/mathematics-statistics/about/directory/lulu-kang)
 
-- Profiling RNA transcripts under specific biological conditions or in particular cell types.
-- Performing homology-based annotation to uncover the functions of differentially expressed genes (DEGs).
-- Identifying crucial markers for distinguishing cell subtypes.
-- Quantifying gene expression to reveal insights into transcriptional regulation.
+**MSc in Biotechnology** and **BS in Biotechnology** from University of Science, VNUHCM.
 
-**Genomic analysis**
+## Contact 
 
-I work on identifying genomic variations and abnormalities that drive diseases, particularly using whole-genome sequencing (WGS) and whole-exome sequencing (WES) data. Some of my key projects include:
+Linkedin: [https://www.linkedin.com/in/thuy-van-la-ngoc/](https://www.linkedin.com/in/thuy-van-la-ngoc/)
 
-- Detecting chromosomal anomalies in human WGS data for early diagnosis of genetic disorders.
-- Pre-diagnosing breast cancer through copy number variant (CNV) detection using WES data.
+Email: [vla@hawk.iit.edu](vla@hawk.iit.edu)
 
-**Drug Design & Pharmacological Insights**
-
-My work in drug design focuses on improving data analysis methods for pharmacological screening. Key achievements include:
-
-- Enhancing concentration-response curve fitting by incorporating control data, leading to more accurate estimates of half-maximal concentrations.
-- Applying Bayesian regression to quantify uncertainty in binding parameters from isothermal titration calorimetry (ITC) data, providing a more reliable analysis than traditional error propagation methods.
-
-**Bayesian Modeling**
-
-I utilize Bayesian modeling techniques to improve predictive accuracy and uncertainty quantification. This includes:
-
-- Comparing Bayesian frameworks such as NumPyro, Pyro, and PyMC3 for analyzing ITC data.
-- Using Bayesian regression and model selection to study binding affinities in enantiomeric mixtures through ITC.
+Outlook mail: [langocthuyvan@outlook.com](langocthuyvan@outlook.com)

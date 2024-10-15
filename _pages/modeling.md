@@ -5,13 +5,19 @@ sitemap: false
 permalink: /modeling
 ---
 
+## Bayesian Modeling
 
-# Statistical modeling
+I utilized Bayesian modeling techniques to improved predictive accuracy and uncertainty quantification. This includes:
 
-In the initial phases of drug design, high-throughput screening assays can be conducted under biochemical/cellular conditions to generate concentration-response datasets. Fitting curves to these datasets using classical Hill equations provides the estimation IC50,  an important metric for comparing the potency of various compounds. Typically, controls in the assay are utilized for response normalization but not for curve fitting. Our research demonstrates that incorporating controls can enhance the accuracy of IC50 estimation, particularly for incomplete curves [[Van NT La et al., 2023](https://pubs.acs.org/doi/10.1021/acs.jmedchem.3c00107)].
+- [Comparing Bayesian frameworks such as NumPyro, Pyro, and PyMC3 for analyzing ITC data](https://vanngocthuyla.github.io/posts/modeling/bitc-PPL-benchmark).
 
-We are also interested in analyzing datasets from various analytical techniques, delving into the binding processes of enzymes and ligands to gain insights into enzymatic mechanisms and facilitate drug development. We aim to improve accuracy in model estimation, and subsequently, enhance the quantification of binding parameters. Among multiple techniques, our focus has been on Isothermal Titration Calorimetry (ITC), where Bayesian regression is employed for dataset analysis. Additional information can be found below:
+- Using Bayesian regression and model selection to study binding affinities in enantiomeric mixtures through ITC ([Paper in 2022](https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0273656)).
 
-- [Comparison](https://vanngocthuyla.github.io/Data_Analysis/_pages/modeling/bitc-PPL-benchmark) of the three PPLs (numpyro, pyro and pymc3) for running the ITC (isothermal titration calorimetry) data;
-- Bayesian Regression and Model Selection for Isothermal Titration Calorimetry with Enantiomeric Mixtures [[Trung H Nguyen, Van NT La, Kyle Burke, David DL Minh, 2022](https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0273656)];
-- Bayesian Regression Quantifies Uncertainty of Binding Parameters from Isothermal Titration Calorimetry More Accurately Than Error Propagation [[Van NT La, David DL Minh, 2023](https://www.mdpi.com/1422-0067/24/20/15074)].
+
+## Drug Design & Pharmacological Insights
+
+My work in drug design focuses on improving data analysis methods for pharmacological screening. Key achievements include:
+
+- Enhancing concentration-response curve fitting by incorporating control data, leading to more accurate estimates of half-maximal concentrations ([Paper in 2023](https://pubs.acs.org/doi/10.1021/acs.jmedchem.3c00107)).
+
+- Applying Bayesian regression to quantify uncertainty in binding parameters from isothermal titration calorimetry (ITC) data, providing a more reliable analysis than traditional error propagation methods ([Paper in 2023](https://www.mdpi.com/1422-0067/24/20/15074)).
